@@ -11,9 +11,9 @@ public class DeathBox : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.i.player != null)
+        if (GameManager.i.pPlayer != null)
         {
-            transform.position = new Vector2(GameManager.i.player.transform.position.x, -11);
+            transform.position = new Vector2(GameManager.i.pPlayer.transform.position.x, 0);
         }
     }
 }

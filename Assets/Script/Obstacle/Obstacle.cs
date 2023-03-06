@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    void Start()
+    public virtual void Init(float time = 1f)
     {
-        
-    }
-
-    void Update()
-    {
-        
+        Invoke("Disapear", time);
     }
 
     protected void Disapear()

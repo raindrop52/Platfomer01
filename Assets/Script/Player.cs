@@ -12,16 +12,13 @@ public class Player : MonoBehaviour
     public float _fMaxSpeed = 5f;
     public float _fJumpPower = 8f;
 
+    [SerializeField] GameObject _fxDie;
+
     private void Awake()
     {
         _rigid2D = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
-    }
-
-    void Start()
-    {
-        
     }
 
     void Update()
@@ -81,46 +78,39 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Die(bool isFall = false)
+    void Die()
     {
         if (GameManager.i.BossOn)
         {
             // 사망 시 보스전 변수 해제
             GameManager.i.BossOn = false;
         }
-
-        if (isFall)
-            Invoke("Disapear", 0f);
-        else
-        {
-            _anim.SetBool("IsDeath", true);
-            Invoke("Disapear", 1f);
-        }
+        
+        Invoke("Disapear", 0f);
     }
 
     void Disapear()
     {
+        if(_fxDie != null)
+        {
+            GameObject go = Instantiate(_fxDie);
+            go.transform.localPosition = transform.position;
+        }    
+
         Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 땅에 떨어진(데스 박스)인 경우
-        if (collision.gameObject.layer == LayerMask.NameToLayer("DeathBox"))
-        {
-            Debug.Log("플레이어 추락사");
-            Die(true);
-        }
-
-        // 장애물에 걸린 경우
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+        // 플레이어 사망
+        if (collision.CompareTag("DeathObj"))
         {
             Debug.Log("플레이어 사망");
             Die();
         }
 
         // 세이브 포인트인 경우
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Save"))
+        if (collision.CompareTag("Save"))
         {
             Debug.Log("세이브 포인트 저장");
             SavePoint savePoint = collision.gameObject.GetComponent<SavePoint>();

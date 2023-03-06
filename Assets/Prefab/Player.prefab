@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6121971606236926843}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,10 +117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b22867af6b38317408c30f4e3d2b27c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bDeath: 0
   _fSpeed: 0.5
   _fMaxSpeed: 5
   _fJumpPower: 8
+  _fxDie: {fileID: 228802233722744190, guid: 2a8d051ab7c62a34c8cae29086abcd0f, type: 3}
 --- !u!50 &6121971606236926840
 Rigidbody2D:
   serializedVersion: 4

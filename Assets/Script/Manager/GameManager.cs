@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     // Player
     [SerializeField] GameObject _playerPrefab;  // 플레이어 프리팹
     Player _player;             // 플레이어
-    public Player player 
+    public Player pPlayer
     {
         get { return _player; }
     }
@@ -33,6 +33,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        if (TrapManager.i != null)
+            TrapManager.i.Init();
+
         if (!_bStart)
         {
             _bStart = true;
@@ -51,6 +54,9 @@ public class GameManager : MonoBehaviour
         {
             // 캐릭터 세이브 포인트 부활
             CreatePlayer();
+
+            // 트랩 매니저 초기화 동작
+            TrapManager.i.AllTrapRestore();
         }
     }
 
