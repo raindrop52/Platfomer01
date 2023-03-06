@@ -1,0 +1,12 @@
+.vs
+.suo
+
+Library
+Logs
+obj
+Temp
+
+*.sln
+*.csproj
+*.suo
+.vs/Platformer/v16/.suo
