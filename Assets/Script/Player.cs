@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public float _fMaxSpeed = 5f;
     public float _fJumpPower = 8f;
 
+    bool _isJump = false;
+
     [SerializeField] GameObject _fxDie;
 
     private void Awake()
@@ -30,8 +32,10 @@ public class Player : MonoBehaviour
         }
 
         // 점프
-        if (Input.GetKeyDown(KeyCode.X) && _anim.GetBool("IsJump") == false)
+        if (Input.GetKeyDown(KeyCode.X) && _isJump == false
+            && _anim.GetBool("IsJump") == false)
         {
+            _isJump = true;
             _rigid2D.AddForce(Vector2.up * _fJumpPower, ForceMode2D.Impulse);
             _anim.SetBool("IsJump", true);
         }
@@ -70,10 +74,15 @@ public class Player : MonoBehaviour
 
         if (_rigid2D.velocity.y < 0)    // 아래로 떨어질 때만
         {
-            if (rayHit.collider != null && _anim.GetBool("IsJump") == true) // 빔을 맞은 오브젝트가 있으면
+            // 빔을 맞은 오브젝트가 있으면
+            if (rayHit.collider != null && _isJump == true
+                && _anim.GetBool("IsJump") == true)
             {
                 if (rayHit.distance < 0.98f)
+                {
                     _anim.SetBool("IsJump", false);
+                    _isJump = false;
+                }
             }
         }
     }
@@ -121,5 +130,10 @@ public class Player : MonoBehaviour
         }
     }
 
-    
+    public void Resurrection()
+    {
+        // 부활 시 내려올 때 점프 방지
+        _anim.SetBool("IsJump", true);
+        _isJump = true;
+    }
 }

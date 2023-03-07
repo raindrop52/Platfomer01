@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
         if (_player != null)
         {
             Debug.Log("플레이어 정상 제작");
+            _player.Resurrection();
         }
     }
     #endregion
