@@ -14,15 +14,24 @@ public class GameManager : MonoBehaviour
         get { return _player; }
     }
 
-    // Game Option [bool]
-    bool _bStart = false;           // 게임 시작 여부
+    #region Game Option [bool]
+    // 게임 시작 여부
+    bool _bStart = false;
+    // 보스 진입 여부
     [SerializeField] bool _bBossOn = false;
     public bool BossOn
     {
         get { return _bBossOn; }
         set { _bBossOn = value; }
     }
-
+    // 게임 오버 여부
+    bool _bGameOver = false;
+    public bool GameOver
+    {
+        get { return _bGameOver; }
+        set { _bGameOver = value; }
+    }
+    #endregion
     // Save Point
     [SerializeField] Vector2 _vecSavePoint;      // 세이브 포인트 좌표
 
@@ -40,23 +49,22 @@ public class GameManager : MonoBehaviour
         {
             _bStart = true;
 
-            if (_player == null)
-            {
-                CreatePlayer();
-            }
+            CreatePlayer();
         }
     }
 
     void Update()
     {
-        // R키 누를 시
-        if (Input.GetKeyDown(KeyCode.R))
+        // R키 누를 시 (게임 오버 상태에서만)
+        if (Input.GetKeyDown(KeyCode.R) && _bGameOver)
         {
             // 캐릭터 세이브 포인트 부활
             CreatePlayer();
 
             // 트랩 매니저 초기화 동작
             TrapManager.i.AllTrapRestore();
+
+            _bGameOver = false;
         }
     }
 
@@ -76,19 +84,22 @@ public class GameManager : MonoBehaviour
     #region private
     void CreatePlayer()
     {
-        if (_player != null)
+        // 플레이어가 없으면
+        if (_player == null)
         {
-            Debug.Log("ERR : 플레이어 존재");
-            return;
+            // 플레이어 제작
+            GameObject go = Instantiate(_playerPrefab);
+            go.transform.position = _vecSavePoint;
+            _player = go.GetComponent<Player>();
+            _player.Init();
         }
-
-        GameObject go = Instantiate(_playerPrefab);
-        go.transform.position = _vecSavePoint;
-        _player = go.GetComponent<Player>();
+        
+        // 플레이어가 존재 시
         if (_player != null)
         {
             Debug.Log("플레이어 정상 제작");
-            _player.Resurrection();
+            _player.gameObject.SetActive(true);
+            _player.Resurrection(_vecSavePoint);
         }
     }
     #endregion

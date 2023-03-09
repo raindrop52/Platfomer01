@@ -6,6 +6,8 @@ TagManager:
   tags:
   - DeathObj
   - Save
+  - Block
+  - Item
   layers:
   - Default
   - TransparentFX

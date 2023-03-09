@@ -1,0 +1,4737 @@
+fileFormatVersion: 2
+guid: 75dff5aa631884949bcbdc9065ef6365
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4816962319178808194
+    second: 00_Pixel_FX_Texture_0
+  - first:
+      213: -518496171277055300
+    second: 00_Pixel_FX_Texture_1
+  - first:
+      213: -9088487275895694784
+    second: 00_Pixel_FX_Texture_2
+  - first:
+      213: 8980287035633112349
+    second: 00_Pixel_FX_Texture_3
+  - first:
+      213: 8509927381069837535
+    second: 00_Pixel_FX_Texture_4
+  - first:
+      213: -7127140956349205904
+    second: 00_Pixel_FX_Texture_5
+  - first:
+      213: -3755467795775307513
+    second: 00_Pixel_FX_Texture_6
+  - first:
+      213: -2238418464678911049
+    second: 00_Pixel_FX_Texture_7
+  - first:
+      213: -8291731700706617991
+    second: 00_Pixel_FX_Texture_8
+  - first:
+      213: -6427202977775337004
+    second: 00_Pixel_FX_Texture_9
+  - first:
+      213: -6798350679403080679
+    second: 00_Pixel_FX_Texture_10
+  - first:
+      213: 5707952049513467456
+    second: 00_Pixel_FX_Texture_11
+  - first:
+      213: 7550788034049919876
+    second: 00_Pixel_FX_Texture_12
+  - first:
+      213: 6458770753751274543
+    second: 00_Pixel_FX_Texture_13
+  - first:
+      213: 8814627361831250085
+    second: 00_Pixel_FX_Texture_14
+  - first:
+      213: -4547514633910286868
+    second: 00_Pixel_FX_Texture_15
+  - first:
+      213: -8879762292561675444
+    second: 00_Pixel_FX_Texture_16
+  - first:
+      213: 8924046053773664433
+    second: 00_Pixel_FX_Texture_17
+  - first:
+      213: 3097429269035134946
+    second: 00_Pixel_FX_Texture_18
+  - first:
+      213: 1300963038189607096
+    second: 00_Pixel_FX_Texture_19
+  - first:
+      213: 5832650525026276755
+    second: 00_Pixel_FX_Texture_20
+  - first:
+      213: -4825919241120335622
+    second: 00_Pixel_FX_Texture_21
+  - first:
+      213: -8560995961844554908
+    second: 00_Pixel_FX_Texture_22
+  - first:
+      213: -1647861045037385188
+    second: 00_Pixel_FX_Texture_23
+  - first:
+      213: 8645872431108857726
+    second: 00_Pixel_FX_Texture_24
+  - first:
+      213: -7802608791415484557
+    second: 00_Pixel_FX_Texture_25
+  - first:
+      213: 8947206569960215089
+    second: 00_Pixel_FX_Texture_26
+  - first:
+      213: 5557511969227116271
+    second: 00_Pixel_FX_Texture_27
+  - first:
+      213: -6902790207728823464
+    second: 00_Pixel_FX_Texture_28
+  - first:
+      213: -5561021654555427159
+    second: 00_Pixel_FX_Texture_29
+  - first:
+      213: 5265229919355527205
+    second: 00_Pixel_FX_Texture_30
+  - first:
+      213: 1990741781390529122
+    second: 00_Pixel_FX_Texture_31
+  - first:
+      213: -7801946298385501349
+    second: 00_Pixel_FX_Texture_32
+  - first:
+      213: -147473117332984084
+    second: 00_Pixel_FX_Texture_33
+  - first:
+      213: -7424114418469917965
+    second: 00_Pixel_FX_Texture_34
+  - first:
+      213: -4163113967422776199
+    second: 00_Pixel_FX_Texture_35
+  - first:
+      213: 6836862235182765387
+    second: 00_Pixel_FX_Texture_36
+  - first:
+      213: 3195555466249711033
+    second: 00_Pixel_FX_Texture_37
+  - first:
+      213: -7867494870160956222
+    second: 00_Pixel_FX_Texture_38
+  - first:
+      213: -7762933135849653827
+    second: 00_Pixel_FX_Texture_39
+  - first:
+      213: 3188877783486907009
+    second: 00_Pixel_FX_Texture_40
+  - first:
+      213: -5554074796735569641
+    second: 00_Pixel_FX_Texture_41
+  - first:
+      213: 1406111788960788877
+    second: 00_Pixel_FX_Texture_42
+  - first:
+      213: 2137216779562910005
+    second: 00_Pixel_FX_Texture_43
+  - first:
+      213: 5761579503249912831
+    second: 00_Pixel_FX_Texture_44
+  - first:
+      213: 5126509324484277142
+    second: 00_Pixel_FX_Texture_45
+  - first:
+      213: 1814298986331321492
+    second: 00_Pixel_FX_Texture_46
+  - first:
+      213: -6557792073978327447
+    second: 00_Pixel_FX_Texture_47
+  - first:
+      213: -7714085084962584920
+    second: 00_Pixel_FX_Texture_48
+  - first:
+      213: -2000201856210702328
+    second: 00_Pixel_FX_Texture_49
+  - first:
+      213: 3634488235958410608
+    second: 00_Pixel_FX_Texture_50
+  - first:
+      213: -1598739359282164425
+    second: 00_Pixel_FX_Texture_51
+  - first:
+      213: 293751927266467259
+    second: 00_Pixel_FX_Texture_52
+  - first:
+      213: -3225015928248984630
+    second: 00_Pixel_FX_Texture_53
+  - first:
+      213: 1199655659632796426
+    second: 00_Pixel_FX_Texture_54
+  - first:
+      213: 2256077772559945705
+    second: 00_Pixel_FX_Texture_55
+  - first:
+      213: 4718267730734695823
+    second: 00_Pixel_FX_Texture_56
+  - first:
+      213: -7462578128805250900
+    second: 00_Pixel_FX_Texture_57
+  - first:
+      213: -1814530607862535702
+    second: 00_Pixel_FX_Texture_58
+  - first:
+      213: 1184240011444114689
+    second: 00_Pixel_FX_Texture_59
+  - first:
+      213: -1679329395270057158
+    second: 00_Pixel_FX_Texture_60
+  - first:
+      213: 8372705339492117399
+    second: 00_Pixel_FX_Texture_61
+  - first:
+      213: 6954014069480223890
+    second: 00_Pixel_FX_Texture_62
+  - first:
+      213: -731101229447292849
+    second: 00_Pixel_FX_Texture_63
+  - first:
+      213: 1807001657070710057
+    second: 00_Pixel_FX_Texture_64
+  - first:
+      213: 6180541964104782234
+    second: 00_Pixel_FX_Texture_65
+  - first:
+      213: 1457646134933759546
+    second: 00_Pixel_FX_Texture_66
+  - first:
+      213: 1989664789147209407
+    second: 00_Pixel_FX_Texture_67
+  - first:
+      213: 2053959072599407519
+    second: 00_Pixel_FX_Texture_68
+  - first:
+      213: -2352552458117322055
+    second: 00_Pixel_FX_Texture_69
+  - first:
+      213: -2493937424254713568
+    second: 00_Pixel_FX_Texture_70
+  - first:
+      213: -118674248904532472
+    second: 00_Pixel_FX_Texture_71
+  - first:
+      213: -2933819882255505867
+    second: 00_Pixel_FX_Texture_72
+  - first:
+      213: -1125402554889801627
+    second: 00_Pixel_FX_Texture_73
+  - first:
+      213: -2011850122089942793
+    second: 00_Pixel_FX_Texture_74
+  - first:
+      213: 7593416621044960612
+    second: 00_Pixel_FX_Texture_75
+  - first:
+      213: -5924523349519075539
+    second: 00_Pixel_FX_Texture_76
+  - first:
+      213: 5564959165663826525
+    second: 00_Pixel_FX_Texture_77
+  - first:
+      213: -4041061561150863240
+    second: 00_Pixel_FX_Texture_78
+  - first:
+      213: -5825244063177459141
+    second: 00_Pixel_FX_Texture_79
+  - first:
+      213: 3556876238072893555
+    second: 00_Pixel_FX_Texture_80
+  - first:
+      213: 7809195915163064435
+    second: 00_Pixel_FX_Texture_81
+  - first:
+      213: -8112118671476519386
+    second: 00_Pixel_FX_Texture_82
+  - first:
+      213: -1578141810027161065
+    second: 00_Pixel_FX_Texture_83
+  - first:
+      213: 5984241182179934838
+    second: 00_Pixel_FX_Texture_84
+  - first:
+      213: 61664871010526596
+    second: 00_Pixel_FX_Texture_85
+  - first:
+      213: 6331736931633211416
+    second: 00_Pixel_FX_Texture_86
+  - first:
+      213: -4496031081205164686
+    second: 00_Pixel_FX_Texture_87
+  - first:
+      213: 4775870506838548664
+    second: 00_Pixel_FX_Texture_88
+  - first:
+      213: -447585788735547167
+    second: 00_Pixel_FX_Texture_89
+  - first:
+      213: -192700227171952267
+    second: 00_Pixel_FX_Texture_90
+  - first:
+      213: 4933835945132793455
+    second: 00_Pixel_FX_Texture_91
+  - first:
+      213: -2622462817353803515
+    second: 00_Pixel_FX_Texture_92
+  - first:
+      213: -5922637203384985454
+    second: 00_Pixel_FX_Texture_93
+  - first:
+      213: 919860502688706761
+    second: 00_Pixel_FX_Texture_94
+  - first:
+      213: -6925360674788651487
+    second: 00_Pixel_FX_Texture_95
+  - first:
+      213: -5748220528777854092
+    second: 00_Pixel_FX_Texture_96
+  - first:
+      213: -895470626660452528
+    second: 00_Pixel_FX_Texture_97
+  - first:
+      213: 2982558872182032327
+    second: 00_Pixel_FX_Texture_98
+  - first:
+      213: 3230855788245890949
+    second: 00_Pixel_FX_Texture_99
+  - first:
+      213: 8933501313524328809
+    second: 00_Pixel_FX_Texture_100
+  - first:
+      213: 6402275818766725564
+    second: 00_Pixel_FX_Texture_101
+  - first:
+      213: -1689203816878760452
+    second: 00_Pixel_FX_Texture_102
+  - first:
+      213: 110795704898894550
+    second: 00_Pixel_FX_Texture_103
+  - first:
+      213: -2708246674198256852
+    second: 00_Pixel_FX_Texture_104
+  - first:
+      213: -4099364453309988615
+    second: 00_Pixel_FX_Texture_105
+  - first:
+      213: -2640019498007390106
+    second: 00_Pixel_FX_Texture_106
+  - first:
+      213: -7793274711886695513
+    second: 00_Pixel_FX_Texture_107
+  - first:
+      213: 2541564175757103108
+    second: 00_Pixel_FX_Texture_108
+  - first:
+      213: -1865966258208046271
+    second: 00_Pixel_FX_Texture_109
+  - first:
+      213: -4687089850966241416
+    second: 00_Pixel_FX_Texture_110
+  - first:
+      213: 929943213845653744
+    second: 00_Pixel_FX_Texture_111
+  - first:
+      213: 4200796696912177144
+    second: 00_Pixel_FX_Texture_112
+  - first:
+      213: 3134854595130427326
+    second: 00_Pixel_FX_Texture_113
+  - first:
+      213: 4266698050982692873
+    second: 00_Pixel_FX_Texture_114
+  - first:
+      213: 3682717275128852124
+    second: 00_Pixel_FX_Texture_115
+  - first:
+      213: -352290122222583053
+    second: 00_Pixel_FX_Texture_116
+  - first:
+      213: 2061045751292750651
+    second: 00_Pixel_FX_Texture_117
+  - first:
+      213: -7859883576580950820
+    second: 00_Pixel_FX_Texture_118
+  - first:
+      213: -5684705580329799752
+    second: 00_Pixel_FX_Texture_119
+  - first:
+      213: 2778340997387877451
+    second: 00_Pixel_FX_Texture_120
+  - first:
+      213: 8644136153436879423
+    second: 00_Pixel_FX_Texture_121
+  - first:
+      213: 5484131764809190225
+    second: 00_Pixel_FX_Texture_122
+  - first:
+      213: 8511625496690963682
+    second: 00_Pixel_FX_Texture_123
+  - first:
+      213: -7610918908309269889
+    second: 00_Pixel_FX_Texture_124
+  - first:
+      213: -2883133532691027934
+    second: 00_Pixel_FX_Texture_125
+  - first:
+      213: -6204887278272593070
+    second: 00_Pixel_FX_Texture_126
+  - first:
+      213: 4271478282918711660
+    second: 00_Pixel_FX_Texture_127
+  - first:
+      213: -7386992412850545821
+    second: 00_Pixel_FX_Texture_128
+  - first:
+      213: 7119615044642592085
+    second: 00_Pixel_FX_Texture_129
+  - first:
+      213: 4580056587316661371
+    second: 00_Pixel_FX_Texture_130
+  - first:
+      213: -2957549742816408524
+    second: 00_Pixel_FX_Texture_131
+  - first:
+      213: 800887765244055929
+    second: 00_Pixel_FX_Texture_132
+  - first:
+      213: -2431149110720902848
+    second: 00_Pixel_FX_Texture_133
+  - first:
+      213: 1402461845746151280
+    second: 00_Pixel_FX_Texture_134
+  - first:
+      213: -6123936195269280876
+    second: 00_Pixel_FX_Texture_135
+  - first:
+      213: -4779897220929749063
+    second: 00_Pixel_FX_Texture_136
+  - first:
+      213: 7260982894486187291
+    second: 00_Pixel_FX_Texture_137
+  - first:
+      213: -4359053128191512328
+    second: 00_Pixel_FX_Texture_138
+  - first:
+      213: -897844128407387480
+    second: 00_Pixel_FX_Texture_139
+  - first:
+      213: 3627265668519955429
+    second: 00_Pixel_FX_Texture_140
+  - first:
+      213: 66205199986376
+    second: 00_Pixel_FX_Texture_141
+  - first:
+      213: 1984935092945768070
+    second: 00_Pixel_FX_Texture_142
+  - first:
+      213: 4579342478547979542
+    second: 00_Pixel_FX_Texture_143
+  - first:
+      213: -1919551924994041344
+    second: 00_Pixel_FX_Texture_144
+  - first:
+      213: 3184846201240997521
+    second: 00_Pixel_FX_Texture_145
+  - first:
+      213: 1296155765490538455
+    second: 00_Pixel_FX_Texture_146
+  - first:
+      213: 1091045878347818543
+    second: 00_Pixel_FX_Texture_147
+  - first:
+      213: -8424765450073922221
+    second: 00_Pixel_FX_Texture_148
+  - first:
+      213: -5139596824948445680
+    second: 00_Pixel_FX_Texture_149
+  - first:
+      213: 2640586646208667501
+    second: 00_Pixel_FX_Texture_150
+  - first:
+      213: 8626126337006852489
+    second: 00_Pixel_FX_Texture_151
+  - first:
+      213: -8405751169124493769
+    second: 00_Pixel_FX_Texture_152
+  - first:
+      213: -8397593679780169654
+    second: 00_Pixel_FX_Texture_153
+  - first:
+      213: -2269297637094401738
+    second: 00_Pixel_FX_Texture_154
+  - first:
+      213: 8519117289288701390
+    second: 00_Pixel_FX_Texture_155
+  - first:
+      213: -6574000819299780957
+    second: 00_Pixel_FX_Texture_156
+  - first:
+      213: 6492250117536246544
+    second: 00_Pixel_FX_Texture_157
+  - first:
+      213: -8909630026386714443
+    second: 00_Pixel_FX_Texture_158
+  - first:
+      213: 3209187168262240471
+    second: 00_Pixel_FX_Texture_159
+  - first:
+      213: -3449536263720365956
+    second: 00_Pixel_FX_Texture_160
+  - first:
+      213: -3341140787587778439
+    second: 00_Pixel_FX_Texture_161
+  - first:
+      213: -9008661933444032493
+    second: 00_Pixel_FX_Texture_162
+  - first:
+      213: -46054703086820673
+    second: 00_Pixel_FX_Texture_163
+  - first:
+      213: -5911509809005126067
+    second: 00_Pixel_FX_Texture_164
+  - first:
+      213: 2609230486320970036
+    second: 00_Pixel_FX_Texture_165
+  - first:
+      213: -8140404337164049873
+    second: 00_Pixel_FX_Texture_166
+  - first:
+      213: 8622344123230452505
+    second: 00_Pixel_FX_Texture_167
+  - first:
+      213: -5023793407140469528
+    second: 00_Pixel_FX_Texture_168
+  - first:
+      213: 41255737036286830
+    second: 00_Pixel_FX_Texture_169
+  - first:
+      213: -2761771292624463087
+    second: 00_Pixel_FX_Texture_170
+  - first:
+      213: 6603955565393149727
+    second: 00_Pixel_FX_Texture_171
+  - first:
+      213: 3674113777166902197
+    second: 00_Pixel_FX_Texture_172
+  - first:
+      213: 4086746751241259515
+    second: 00_Pixel_FX_Texture_173
+  - first:
+      213: 6380811265326897006
+    second: 00_Pixel_FX_Texture_174
+  - first:
+      213: -2485301375921856930
+    second: 00_Pixel_FX_Texture_175
+  - first:
+      213: -4772029591434828988
+    second: 00_Pixel_FX_Texture_176
+  - first:
+      213: 8168514065926430073
+    second: 00_Pixel_FX_Texture_177
+  - first:
+      213: 651643285632648003
+    second: 00_Pixel_FX_Texture_178
+  - first:
+      213: 2640009642540078988
+    second: 00_Pixel_FX_Texture_179
+  - first:
+      213: -3571923587472477016
+    second: 00_Pixel_FX_Texture_180
+  - first:
+      213: -6505427967184883109
+    second: 00_Pixel_FX_Texture_181
+  - first:
+      213: 5672264886954399689
+    second: 00_Pixel_FX_Texture_182
+  - first:
+      213: -2225118898153140022
+    second: 00_Pixel_FX_Texture_183
+  - first:
+      213: 3408436074066287230
+    second: 00_Pixel_FX_Texture_184
+  - first:
+      213: 8280201997069656323
+    second: 00_Pixel_FX_Texture_185
+  - first:
+      213: -32603573513941938
+    second: 00_Pixel_FX_Texture_186
+  - first:
+      213: 2318754404886980028
+    second: 00_Pixel_FX_Texture_187
+  - first:
+      213: -1524460334424307743
+    second: 00_Pixel_FX_Texture_188
+  - first:
+      213: -3429194815220865818
+    second: 00_Pixel_FX_Texture_189
+  - first:
+      213: 7862214929411514007
+    second: 00_Pixel_FX_Texture_190
+  - first:
+      213: -8097571572313261178
+    second: 00_Pixel_FX_Texture_191
+  - first:
+      213: 6282551153953507512
+    second: 00_Pixel_FX_Texture_192
+  - first:
+      213: -1030271538577870193
+    second: 00_Pixel_FX_Texture_193
+  - first:
+      213: 7838802031352409127
+    second: 00_Pixel_FX_Texture_194
+  - first:
+      213: 564904127551289662
+    second: 00_Pixel_FX_Texture_195
+  - first:
+      213: -6473790695698522747
+    second: 00_Pixel_FX_Texture_196
+  - first:
+      213: -1521423785434471282
+    second: 00_Pixel_FX_Texture_197
+  - first:
+      213: 901644064845444474
+    second: 00_Pixel_FX_Texture_198
+  - first:
+      213: -3604794295244723312
+    second: 00_Pixel_FX_Texture_199
+  - first:
+      213: -2470481175031374321
+    second: 00_Pixel_FX_Texture_200
+  - first:
+      213: 2003910718977538260
+    second: 00_Pixel_FX_Texture_201
+  - first:
+      213: 6767465366596002162
+    second: 00_Pixel_FX_Texture_202
+  - first:
+      213: -6608974490594346608
+    second: 00_Pixel_FX_Texture_203
+  - first:
+      213: 1286183452896082308
+    second: 00_Pixel_FX_Texture_204
+  - first:
+      213: -1483650560537537237
+    second: 00_Pixel_FX_Texture_205
+  - first:
+      213: 7968376859512588293
+    second: 00_Pixel_FX_Texture_206
+  - first:
+      213: -8590972312309725452
+    second: 00_Pixel_FX_Texture_207
+  - first:
+      213: 181157115482157833
+    second: 00_Pixel_FX_Texture_208
+  - first:
+      213: 2908064727777566460
+    second: 00_Pixel_FX_Texture_209
+  - first:
+      213: -7006369259543670440
+    second: 00_Pixel_FX_Texture_210
+  - first:
+      213: -8866577577732677662
+    second: 00_Pixel_FX_Texture_211
+  - first:
+      213: 3286930785634299286
+    second: 00_Pixel_FX_Texture_212
+  - first:
+      213: 7211122080483675399
+    second: 00_Pixel_FX_Texture_213
+  - first:
+      213: 3724461870148107403
+    second: 00_Pixel_FX_Texture_214
+  - first:
+      213: -3236450909629533603
+    second: 00_Pixel_FX_Texture_215
+  - first:
+      213: 5449055988031872613
+    second: 00_Pixel_FX_Texture_216
+  - first:
+      213: 3374078838227573322
+    second: 00_Pixel_FX_Texture_217
+  - first:
+      213: -3117536838158021598
+    second: 00_Pixel_FX_Texture_218
+  - first:
+      213: -4493867587098790096
+    second: 00_Pixel_FX_Texture_219
+  - first:
+      213: -8599994165414559153
+    second: 00_Pixel_FX_Texture_220
+  - first:
+      213: 2017760866546892028
+    second: 00_Pixel_FX_Texture_221
+  - first:
+      213: -1878527127121123243
+    second: 00_Pixel_FX_Texture_222
+  - first:
+      213: 6922391123118758269
+    second: 00_Pixel_FX_Texture_223
+  - first:
+      213: -3510584815474754802
+    second: 00_Pixel_FX_Texture_224
+  - first:
+      213: -8271729007882922367
+    second: 00_Pixel_FX_Texture_225
+  - first:
+      213: -5962140621732858050
+    second: 00_Pixel_FX_Texture_226
+  - first:
+      213: -944394493873418562
+    second: 00_Pixel_FX_Texture_227
+  - first:
+      213: -5632889527799387672
+    second: 00_Pixel_FX_Texture_228
+  - first:
+      213: 8742186053815831240
+    second: 00_Pixel_FX_Texture_229
+  - first:
+      213: 753231332153363629
+    second: 00_Pixel_FX_Texture_230
+  - first:
+      213: -182348564765645619
+    second: 00_Pixel_FX_Texture_231
+  - first:
+      213: 2684406893073352222
+    second: 00_Pixel_FX_Texture_232
+  - first:
+      213: -72158709676487860
+    second: 00_Pixel_FX_Texture_233
+  - first:
+      213: -1741750360283928139
+    second: 00_Pixel_FX_Texture_234
+  - first:
+      213: -5881240419701052353
+    second: 00_Pixel_FX_Texture_235
+  - first:
+      213: 7257800145231110281
+    second: 00_Pixel_FX_Texture_236
+  - first:
+      213: -6472435531105006875
+    second: 00_Pixel_FX_Texture_237
+  - first:
+      213: -6996949253903940328
+    second: 00_Pixel_FX_Texture_238
+  - first:
+      213: 239024371376029158
+    second: 00_Pixel_FX_Texture_239
+  - first:
+      213: 2295723474755078911
+    second: 00_Pixel_FX_Texture_240
+  - first:
+      213: -8740372742237642406
+    second: 00_Pixel_FX_Texture_241
+  - first:
+      213: 7341981380791660550
+    second: 00_Pixel_FX_Texture_242
+  - first:
+      213: -5192185108627614873
+    second: 00_Pixel_FX_Texture_243
+  - first:
+      213: 6496631628462490128
+    second: 00_Pixel_FX_Texture_244
+  - first:
+      213: 2547791989481073448
+    second: 00_Pixel_FX_Texture_245
+  - first:
+      213: -4652315130235709296
+    second: 00_Pixel_FX_Texture_246
+  - first:
+      213: 3888595182911400244
+    second: 00_Pixel_FX_Texture_247
+  - first:
+      213: 5268237528599286378
+    second: 00_Pixel_FX_Texture_248
+  - first:
+      213: 285675819890660234
+    second: 00_Pixel_FX_Texture_249
+  - first:
+      213: -2206401991591545699
+    second: 00_Pixel_FX_Texture_250
+  - first:
+      213: -4880642617828689404
+    second: 00_Pixel_FX_Texture_251
+  - first:
+      213: 6829156716394401883
+    second: 00_Pixel_FX_Texture_252
+  - first:
+      213: -2461185753736893513
+    second: 00_Pixel_FX_Texture_253
+  - first:
+      213: 132888422723860669
+    second: 00_Pixel_FX_Texture_254
+  - first:
+      213: 1677730922011183716
+    second: 00_Pixel_FX_Texture_255
+  - first:
+      213: 5990622585550154245
+    second: 00_Pixel_FX_Texture_256
+  - first:
+      213: -6680436826600189764
+    second: 00_Pixel_FX_Texture_257
+  - first:
+      213: 7607781802388867833
+    second: 00_Pixel_FX_Texture_258
+  - first:
+      213: -1211139258407412981
+    second: 00_Pixel_FX_Texture_259
+  - first:
+      213: -8047545914954256795
+    second: 00_Pixel_FX_Texture_260
+  - first:
+      213: -6292573288517887507
+    second: 00_Pixel_FX_Texture_261
+  - first:
+      213: 6819006090457163871
+    second: 00_Pixel_FX_Texture_262
+  - first:
+      213: -610643354560713990
+    second: 00_Pixel_FX_Texture_263
+  - first:
+      213: -3055672328658353545
+    second: 00_Pixel_FX_Texture_264
+  - first:
+      213: 767878663413321972
+    second: 00_Pixel_FX_Texture_265
+  - first:
+      213: -2058203567970800814
+    second: 00_Pixel_FX_Texture_266
+  - first:
+      213: 1841514929724253462
+    second: 00_Pixel_FX_Texture_267
+  - first:
+      213: 8796070689450820099
+    second: 00_Pixel_FX_Texture_268
+  - first:
+      213: -5105152290251190267
+    second: 00_Pixel_FX_Texture_269
+  - first:
+      213: -2496576205365319337
+    second: 00_Pixel_FX_Texture_270
+  - first:
+      213: 928478785644634120
+    second: 00_Pixel_FX_Texture_271
+  - first:
+      213: -3677124246233535657
+    second: 00_Pixel_FX_Texture_272
+  - first:
+      213: -183192619720405019
+    second: 00_Pixel_FX_Texture_273
+  - first:
+      213: 818418384569130666
+    second: 00_Pixel_FX_Texture_274
+  - first:
+      213: -6990599897745062590
+    second: 00_Pixel_FX_Texture_275
+  - first:
+      213: -93574284455187484
+    second: 00_Pixel_FX_Texture_276
+  - first:
+      213: 6929676310377151771
+    second: 00_Pixel_FX_Texture_277
+  - first:
+      213: 5347339653259151042
+    second: 00_Pixel_FX_Texture_278
+  - first:
+      213: -6529895495125143829
+    second: 00_Pixel_FX_Texture_279
+  - first:
+      213: 774843332124831772
+    second: 00_Pixel_FX_Texture_280
+  - first:
+      213: -640415173676505090
+    second: 00_Pixel_FX_Texture_281
+  - first:
+      213: 9105050730520369518
+    second: 00_Pixel_FX_Texture_282
+  - first:
+      213: -8623731703491118451
+    second: 00_Pixel_FX_Texture_283
+  - first:
+      213: -4308023245493878924
+    second: 00_Pixel_FX_Texture_284
+  - first:
+      213: -6884072984383119487
+    second: 00_Pixel_FX_Texture_285
+  - first:
+      213: 247814228255408869
+    second: 00_Pixel_FX_Texture_286
+  - first:
+      213: -7093314514273165672
+    second: 00_Pixel_FX_Texture_287
+  - first:
+      213: 318338628515812208
+    second: 00_Pixel_FX_Texture_288
+  - first:
+      213: -5161042589470709640
+    second: 00_Pixel_FX_Texture_289
+  - first:
+      213: 1330084508033250971
+    second: 00_Pixel_FX_Texture_290
+  - first:
+      213: 5618054754942924325
+    second: 00_Pixel_FX_Texture_291
+  - first:
+      213: -1650220831849012415
+    second: 00_Pixel_FX_Texture_292
+  - first:
+      213: -2383937813404664243
+    second: 00_Pixel_FX_Texture_293
+  - first:
+      213: -5475285073867697114
+    second: 00_Pixel_FX_Texture_294
+  - first:
+      213: 213930806120292487
+    second: 00_Pixel_FX_Texture_295
+  - first:
+      213: 3604750606941590346
+    second: 00_Pixel_FX_Texture_296
+  - first:
+      213: 6147554214742216973
+    second: 00_Pixel_FX_Texture_297
+  - first:
+      213: 6834495694435895587
+    second: 00_Pixel_FX_Texture_298
+  - first:
+      213: 3772679736378960101
+    second: 00_Pixel_FX_Texture_299
+  - first:
+      213: 4900426940904395433
+    second: 00_Pixel_FX_Texture_300
+  - first:
+      213: 7667617179750937281
+    second: 00_Pixel_FX_Texture_301
+  - first:
+      213: -8659679673015758113
+    second: 00_Pixel_FX_Texture_302
+  - first:
+      213: -3613677013266738045
+    second: 00_Pixel_FX_Texture_303
+  - first:
+      213: -1069767195241887983
+    second: 00_Pixel_FX_Texture_304
+  - first:
+      213: -7819968802132176961
+    second: 00_Pixel_FX_Texture_305
+  - first:
+      213: -6656643159838307742
+    second: 00_Pixel_FX_Texture_306
+  - first:
+      213: -3601500827894351987
+    second: 00_Pixel_FX_Texture_307
+  - first:
+      213: 9131480504060451618
+    second: 00_Pixel_FX_Texture_308
+  - first:
+      213: 3185519464831789274
+    second: 00_Pixel_FX_Texture_309
+  - first:
+      213: -4016998172664908562
+    second: 00_Pixel_FX_Texture_310
+  - first:
+      213: -5073262267773506375
+    second: 00_Pixel_FX_Texture_311
+  - first:
+      213: 8229729807247980516
+    second: 00_Pixel_FX_Texture_312
+  - first:
+      213: -5014547757056840886
+    second: 00_Pixel_FX_Texture_313
+  - first:
+      213: -1428518285159304876
+    second: 00_Pixel_FX_Texture_314
+  - first:
+      213: -4588046407481919038
+    second: 00_Pixel_FX_Texture_315
+  - first:
+      213: 2111296913669864357
+    second: 00_Pixel_FX_Texture_316
+  - first:
+      213: -3138901363694759219
+    second: 00_Pixel_FX_Texture_317
+  - first:
+      213: -270555124710244573
+    second: 00_Pixel_FX_Texture_318
+  - first:
+      213: -3663268849760148618
+    second: 00_Pixel_FX_Texture_319
+  - first:
+      213: 337777686218181323
+    second: 00_Pixel_FX_Texture_320
+  - first:
+      213: -4493423713593011155
+    second: 00_Pixel_FX_Texture_321
+  - first:
+      213: -5833865825437889781
+    second: 00_Pixel_FX_Texture_322
+  - first:
+      213: -1718128438849397132
+    second: 00_Pixel_FX_Texture_323
+  - first:
+      213: -6683438364523023455
+    second: 00_Pixel_FX_Texture_324
+  - first:
+      213: 6367163788032659228
+    second: 00_Pixel_FX_Texture_325
+  - first:
+      213: -6084898196780896067
+    second: 00_Pixel_FX_Texture_326
+  - first:
+      213: -8288253266457050666
+    second: 00_Pixel_FX_Texture_327
+  - first:
+      213: 2647424736473094982
+    second: 00_Pixel_FX_Texture_328
+  - first:
+      213: -8235083009052771195
+    second: 00_Pixel_FX_Texture_329
+  - first:
+      213: 1553617334584014809
+    second: 00_Pixel_FX_Texture_330
+  - first:
+      213: -4363423130309491990
+    second: 00_Pixel_FX_Texture_331
+  - first:
+      213: 2794239503911190231
+    second: 00_Pixel_FX_Texture_332
+  - first:
+      213: -2313350927827790177
+    second: 00_Pixel_FX_Texture_333
+  - first:
+      213: 5499133622543565389
+    second: 00_Pixel_FX_Texture_334
+  - first:
+      213: -2529982826304216832
+    second: 00_Pixel_FX_Texture_335
+  - first:
+      213: -1859170654760302976
+    second: 00_Pixel_FX_Texture_336
+  - first:
+      213: -4956740629264304914
+    second: 00_Pixel_FX_Texture_337
+  - first:
+      213: -2534507741497692138
+    second: 00_Pixel_FX_Texture_338
+  - first:
+      213: 3526636667164575221
+    second: 00_Pixel_FX_Texture_339
+  - first:
+      213: 571644607305397735
+    second: 00_Pixel_FX_Texture_340
+  - first:
+      213: -8156705631990625288
+    second: 00_Pixel_FX_Texture_341
+  - first:
+      213: -7032217119947112142
+    second: 00_Pixel_FX_Texture_342
+  - first:
+      213: -7903959587947254681
+    second: 00_Pixel_FX_Texture_343
+  - first:
+      213: -2164580777556024232
+    second: 00_Pixel_FX_Texture_344
+  - first:
+      213: -3044520407368867028
+    second: 00_Pixel_FX_Texture_345
+  - first:
+      213: 7570608445526958794
+    second: 00_Pixel_FX_Texture_346
+  - first:
+      213: -5971765622843719874
+    second: 00_Pixel_FX_Texture_347
+  - first:
+      213: -4154864327883458714
+    second: 00_Pixel_FX_Texture_348
+  - first:
+      213: 2597428703239499953
+    second: 00_Pixel_FX_Texture_349
+  - first:
+      213: 6126742733231770899
+    second: 00_Pixel_FX_Texture_350
+  - first:
+      213: -8157742073365774670
+    second: 00_Pixel_FX_Texture_351
+  - first:
+      213: -6118962612298079663
+    second: 00_Pixel_FX_Texture_352
+  - first:
+      213: -5380760025889093865
+    second: 00_Pixel_FX_Texture_353
+  - first:
+      213: -1595063971565148240
+    second: 00_Pixel_FX_Texture_354
+  - first:
+      213: -2786226839980253410
+    second: 00_Pixel_FX_Texture_355
+  - first:
+      213: -4233105483760687848
+    second: 00_Pixel_FX_Texture_356
+  - first:
+      213: 8343626720425524669
+    second: 00_Pixel_FX_Texture_357
+  - first:
+      213: 6634816600924803699
+    second: 00_Pixel_FX_Texture_358
+  - first:
+      213: 8592296906027277174
+    second: 00_Pixel_FX_Texture_359
+  - first:
+      213: -5423121184057025047
+    second: 00_Pixel_FX_Texture_360
+  - first:
+      213: 2310785913315673419
+    second: 00_Pixel_FX_Texture_361
+  - first:
+      213: 1104916331100343632
+    second: 00_Pixel_FX_Texture_362
+  - first:
+      213: -4253470878208953513
+    second: 00_Pixel_FX_Texture_363
+  - first:
+      213: -3703465713184013270
+    second: 00_Pixel_FX_Texture_364
+  - first:
+      213: 7699423251661954210
+    second: 00_Pixel_FX_Texture_365
+  - first:
+      213: 3467980398752517474
+    second: 00_Pixel_FX_Texture_366
+  - first:
+      213: -1935901738958751366
+    second: 00_Pixel_FX_Texture_367
+  - first:
+      213: -1027969252786744335
+    second: 00_Pixel_FX_Texture_368
+  - first:
+      213: 1443979865790093816
+    second: 00_Pixel_FX_Texture_369
+  - first:
+      213: 3074936120390143539
+    second: 00_Pixel_FX_Texture_370
+  - first:
+      213: -8699184045617865119
+    second: 00_Pixel_FX_Texture_371
+  - first:
+      213: 5907360574174334936
+    second: 00_Pixel_FX_Texture_372
+  - first:
+      213: 5177418534082482073
+    second: 00_Pixel_FX_Texture_373
+  - first:
+      213: 2335213561957634080
+    second: 00_Pixel_FX_Texture_374
+  - first:
+      213: -3207355990361825328
+    second: 00_Pixel_FX_Texture_375
+  - first:
+      213: 2133201620976169593
+    second: 00_Pixel_FX_Texture_376
+  - first:
+      213: 3754962354632740141
+    second: 00_Pixel_FX_Texture_377
+  - first:
+      213: 4345434177250626884
+    second: 00_Pixel_FX_Texture_378
+  - first:
+      213: 3326404350066372140
+    second: 00_Pixel_FX_Texture_379
+  - first:
+      213: 4565364651547212101
+    second: 00_Pixel_FX_Texture_380
+  - first:
+      213: 8578427243042709488
+    second: 00_Pixel_FX_Texture_381
+  - first:
+      213: 4632618945204761472
+    second: 00_Pixel_FX_Texture_382
+  - first:
+      213: 4067720914241456123
+    second: 00_Pixel_FX_Texture_383
+  - first:
+      213: 1625069707607632426
+    second: 00_Pixel_FX_Texture_384
+  - first:
+      213: -4893806944930615603
+    second: 00_Pixel_FX_Texture_385
+  - first:
+      213: -4017257426026982584
+    second: 00_Pixel_FX_Texture_386
+  - first:
+      213: 4540798083689310036
+    second: 00_Pixel_FX_Texture_387
+  - first:
+      213: -4481165329951098606
+    second: 00_Pixel_FX_Texture_388
+  - first:
+      213: -3065812665382515193
+    second: 00_Pixel_FX_Texture_389
+  - first:
+      213: 1982855414095648418
+    second: 00_Pixel_FX_Texture_390
+  - first:
+      213: 8682422641343214179
+    second: 00_Pixel_FX_Texture_391
+  - first:
+      213: 3215417198019730325
+    second: 00_Pixel_FX_Texture_392
+  - first:
+      213: 190219771304890748
+    second: 00_Pixel_FX_Texture_393
+  - first:
+      213: -6031988475724578041
+    second: 00_Pixel_FX_Texture_394
+  - first:
+      213: 737791645247310851
+    second: 00_Pixel_FX_Texture_395
+  - first:
+      213: 8057740985292373001
+    second: 00_Pixel_FX_Texture_396
+  - first:
+      213: -6888857766325251575
+    second: 00_Pixel_FX_Texture_397
+  - first:
+      213: 2716883460123261693
+    second: 00_Pixel_FX_Texture_398
+  - first:
+      213: 1289800760175882698
+    second: 00_Pixel_FX_Texture_399
+  - first:
+      213: 1035870753924360615
+    second: 00_Pixel_FX_Texture_400
+  - first:
+      213: 520177177328704191
+    second: 00_Pixel_FX_Texture_401
+  - first:
+      213: 7166748111732627425
+    second: 00_Pixel_FX_Texture_402
+  - first:
+      213: 9022399631396394017
+    second: 00_Pixel_FX_Texture_406
+  - first:
+      213: 931141813672813994
+    second: 00_Pixel_FX_Texture_407
+  - first:
+      213: 547461783601158743
+    second: 00_Pixel_FX_Texture_408
+  - first:
+      213: 1484231895691202785
+    second: 00_Pixel_FX_Texture_409
+  - first:
+      213: -4070355859621386753
+    second: 00_Pixel_FX_Texture_410
+  - first:
+      213: 8935056276405549922
+    second: 00_Pixel_FX_Texture_411
+  - first:
+      213: 553658720693150289
+    second: 00_Pixel_FX_Texture_412
+  - first:
+      213: -6496910407794108109
+    second: 00_Pixel_FX_Texture_413
+  - first:
+      213: -1998867112891393254
+    second: 00_Pixel_FX_Texture_414
+  - first:
+      213: -5367316917700437459
+    second: 00_Pixel_FX_Texture_415
+  - first:
+      213: -7429566635208119658
+    second: 00_Pixel_FX_Texture_416
+  - first:
+      213: 5246571153449932157
+    second: 00_Pixel_FX_Texture_417
+  - first:
+      213: 2585577419505206052
+    second: 00_Pixel_FX_Texture_418
+  - first:
+      213: -7910518795491396000
+    second: 00_Pixel_FX_Texture_419
+  - first:
+      213: 2252053028321000696
+    second: 00_Pixel_FX_Texture_420
+  - first:
+      213: -4887544873002840046
+    second: 00_Pixel_FX_Texture_421
+  - first:
+      213: 4822617304012246308
+    second: 00_Pixel_FX_Texture_422
+  - first:
+      213: 317232637695530416
+    second: 00_Pixel_FX_Texture_423
+  - first:
+      213: -5338207141201795093
+    second: 00_Pixel_FX_Texture_424
+  - first:
+      213: -2972574656137655151
+    second: 00_Pixel_FX_Texture_425
+  - first:
+      213: -449998572499859589
+    second: 00_Pixel_FX_Texture_426
+  - first:
+      213: -6108476247110571796
+    second: 00_Pixel_FX_Texture_427
+  - first:
+      213: 2945282837499033982
+    second: 00_Pixel_FX_Texture_428
+  - first:
+      213: -6651332012233264125
+    second: 00_Pixel_FX_Texture_429
+  - first:
+      213: 856542575492097839
+    second: 00_Pixel_FX_Texture_430
+  - first:
+      213: -7083107472982840043
+    second: 00_Pixel_FX_Texture_431
+  - first:
+      213: -1387622707682781679
+    second: 00_Pixel_FX_Texture_432
+  - first:
+      213: 5214668714184806900
+    second: 00_Pixel_FX_Texture_433
+  - first:
+      213: 6847172027242725941
+    second: 00_Pixel_FX_Texture_434
+  - first:
+      213: 2372092932057357538
+    second: 00_Pixel_FX_Texture_435
+  - first:
+      213: 7842670739512958509
+    second: 00_Pixel_FX_Texture_436
+  - first:
+      213: -5504761908796172184
+    second: 00_Pixel_FX_Texture_437
+  - first:
+      213: -8473311017606294583
+    second: 00_Pixel_FX_Texture_438
+  - first:
+      213: -3554606106823400298
+    second: 00_Pixel_FX_Texture_442
+  - first:
+      213: 8158636317195420997
+    second: 00_Pixel_FX_Texture_443
+  - first:
+      213: 3377662621897433999
+    second: 00_Pixel_FX_Texture_444
+  - first:
+      213: -3970183196974370785
+    second: 00_Pixel_FX_Texture_445
+  - first:
+      213: 8388893433807611109
+    second: 00_Pixel_FX_Texture_446
+  - first:
+      213: 8759645327655915445
+    second: 00_Pixel_FX_Texture_447
+  - first:
+      213: -8765135163367201987
+    second: 00_Pixel_FX_Texture_448
+  - first:
+      213: 3638424303745258249
+    second: 00_Pixel_FX_Texture_449
+  - first:
+      213: 476054890022247014
+    second: 00_Pixel_FX_Texture_450
+  - first:
+      213: -4841458548946871698
+    second: 00_Pixel_FX_Texture_451
+  - first:
+      213: -2829127858536508420
+    second: 00_Pixel_FX_Texture_452
+  - first:
+      213: 3051567174857418564
+    second: 00_Pixel_FX_Texture_453
+  - first:
+      213: -1838014731139199619
+    second: 00_Pixel_FX_Texture_454
+  - first:
+      213: -7823653256597398686
+    second: 00_Pixel_FX_Texture_455
+  - first:
+      213: -2950736619183382998
+    second: 00_Pixel_FX_Texture_456
+  - first:
+      213: 8514286108024416351
+    second: 00_Pixel_FX_Texture_457
+  - first:
+      213: 4807610655055943444
+    second: 00_Pixel_FX_Texture_458
+  - first:
+      213: 7229771345057140740
+    second: 00_Pixel_FX_Texture_459
+  - first:
+      213: 937582288370154491
+    second: 00_Pixel_FX_Texture_460
+  - first:
+      213: 8013924849811837284
+    second: 00_Pixel_FX_Texture_461
+  - first:
+      213: 3371352134603179198
+    second: 00_Pixel_FX_Texture_462
+  - first:
+      213: -7589453096178247598
+    second: 00_Pixel_FX_Texture_463
+  - first:
+      213: 6213859568398785610
+    second: 00_Pixel_FX_Texture_464
+  - first:
+      213: 882802571314696442
+    second: 00_Pixel_FX_Texture_465
+  - first:
+      213: -1636106052283961207
+    second: 00_Pixel_FX_Texture_466
+  - first:
+      213: -1471638477914429890
+    second: 00_Pixel_FX_Texture_467
+  - first:
+      213: -2715978034953632541
+    second: 00_Pixel_FX_Texture_468
+  - first:
+      213: 2882034845642302365
+    second: 00_Pixel_FX_Texture_469
+  - first:
+      213: 5225357310533123279
+    second: 00_Pixel_FX_Texture_470
+  - first:
+      213: -5304091958730914555
+    second: 00_Pixel_FX_Texture_471
+  - first:
+      213: -4134102052986468901
+    second: 00_Pixel_FX_Texture_472
+  - first:
+      213: -6996916037312850767
+    second: 00_Pixel_FX_Texture_473
+  - first:
+      213: 2229945507926945676
+    second: 00_Pixel_FX_Texture_474
+  - first:
+      213: 7808646151288481231
+    second: 00_Pixel_FX_Texture_475
+  - first:
+      213: -3788199455417189054
+    second: 00_Pixel_FX_Texture_478
+  - first:
+      213: -8229480105759991539
+    second: 00_Pixel_FX_Texture_479
+  - first:
+      213: -2391249406402390294
+    second: 00_Pixel_FX_Texture_480
+  - first:
+      213: 7148600158102042576
+    second: 00_Pixel_FX_Texture_481
+  - first:
+      213: 4422786901707492032
+    second: 00_Pixel_FX_Texture_482
+  - first:
+      213: -7215148275404040614
+    second: 00_Pixel_FX_Texture_483
+  - first:
+      213: -26276321012889182
+    second: 00_Pixel_FX_Texture_484
+  - first:
+      213: -2203289666836218008
+    second: 00_Pixel_FX_Texture_485
+  - first:
+      213: 8716717378927976968
+    second: 00_Pixel_FX_Texture_486
+  - first:
+      213: 1256663985206800854
+    second: 00_Pixel_FX_Texture_487
+  - first:
+      213: -2956610965131094901
+    second: 00_Pixel_FX_Texture_488
+  - first:
+      213: 6792792046015764992
+    second: 00_Pixel_FX_Texture_489
+  - first:
+      213: 8433263762943581342
+    second: 00_Pixel_FX_Texture_490
+  - first:
+      213: 2712694850475836816
+    second: 00_Pixel_FX_Texture_491
+  - first:
+      213: -7650093500282211486
+    second: 00_Pixel_FX_Texture_492
+  - first:
+      213: 7469140066497765767
+    second: 00_Pixel_FX_Texture_493
+  - first:
+      213: -1072602631208760439
+    second: 00_Pixel_FX_Texture_494
+  - first:
+      213: 433545856231318150
+    second: 00_Pixel_FX_Texture_495
+  - first:
+      213: -7443538928483119476
+    second: 00_Pixel_FX_Texture_496
+  - first:
+      213: -6119465431831448400
+    second: 00_Pixel_FX_Texture_497
+  - first:
+      213: 6603090405069278407
+    second: 00_Pixel_FX_Texture_498
+  - first:
+      213: 2121586749813745511
+    second: 00_Pixel_FX_Texture_499
+  - first:
+      213: -3414992985997833721
+    second: 00_Pixel_FX_Texture_514
+  - first:
+      213: -5680940572948640920
+    second: 00_Pixel_FX_Texture_515
+  - first:
+      213: -3889000703391833529
+    second: 00_Pixel_FX_Texture_516
+  - first:
+      213: 7745280568642147577
+    second: 00_Pixel_FX_Texture_517
+  - first:
+      213: 512910488780178780
+    second: 00_Pixel_FX_Texture_518
+  - first:
+      213: -4078133558385455253
+    second: 00_Pixel_FX_Texture_519
+  - first:
+      213: 8355032720057943893
+    second: 00_Pixel_FX_Texture_520
+  - first:
+      213: 8009670735578630732
+    second: 00_Pixel_FX_Texture_521
+  - first:
+      213: 8802877935759989851
+    second: 00_Pixel_FX_Texture_522
+  - first:
+      213: 4904729142695699573
+    second: 00_Pixel_FX_Texture_523
+  - first:
+      213: -6195652019382491220
+    second: 00_Pixel_FX_Texture_524
+  - first:
+      213: 1753394233156810795
+    second: 00_Pixel_FX_Texture_525
+  - first:
+      213: 8439454743368899866
+    second: 00_Pixel_FX_Texture_526
+  - first:
+      213: 7991000231650739419
+    second: 00_Pixel_FX_Texture_527
+  - first:
+      213: -3828627103727308305
+    second: 00_Pixel_FX_Texture_528
+  - first:
+      213: 7072310962754816189
+    second: 00_Pixel_FX_Texture_529
+  - first:
+      213: 7623973197418334033
+    second: 00_Pixel_FX_Texture_530
+  - first:
+      213: -2060709062542766164
+    second: 00_Pixel_FX_Texture_531
+  - first:
+      213: 3229723241654211619
+    second: 00_Pixel_FX_Texture_532
+  - first:
+      213: -9123612106143586280
+    second: 00_Pixel_FX_Texture_533
+  - first:
+      213: 1551190417814554549
+    second: 00_Pixel_FX_Texture_534
+  - first:
+      213: 5133784710835948971
+    second: 00_Pixel_FX_Texture_535
+  - first:
+      213: -5844515875800787668
+    second: 00_Pixel_FX_Texture_536
+  - first:
+      213: 277657415145412317
+    second: 00_Pixel_FX_Texture_537
+  - first:
+      213: -2622268054395894013
+    second: 00_Pixel_FX_Texture_554
+  - first:
+      213: -7467503772848060135
+    second: 00_Pixel_FX_Texture_555
+  - first:
+      213: 4901447211548725928
+    second: 00_Pixel_FX_Texture_556
+  - first:
+      213: 7955229704145847889
+    second: 00_Pixel_FX_Texture_557
+  - first:
+      213: 6273781234948799481
+    second: 00_Pixel_FX_Texture_558
+  - first:
+      213: 7024867921214003830
+    second: 00_Pixel_FX_Texture_559
+  - first:
+      213: -4995138622938787656
+    second: 00_Pixel_FX_Texture_560
+  - first:
+      213: 2144876983713446108
+    second: 00_Pixel_FX_Texture_561
+  - first:
+      213: -6355882949961085825
+    second: 00_Pixel_FX_Texture_562
+  - first:
+      213: -2321811838052530612
+    second: 00_Pixel_FX_Texture_563
+  - first:
+      213: 9143765257781118552
+    second: 00_Pixel_FX_Texture_564
+  - first:
+      213: -5714980484421064078
+    second: 00_Pixel_FX_Texture_565
+  - first:
+      213: 3917949692699291562
+    second: 00_Pixel_FX_Texture_566
+  - first:
+      213: -6059436575219969069
+    second: 00_Pixel_FX_Texture_567
+  - first:
+      213: -2916774930171819059
+    second: 00_Pixel_FX_Texture_568
+  - first:
+      213: -5333908394920894187
+    second: 00_Pixel_FX_Texture_569
+  - first:
+      213: -113942196262023048
+    second: 00_Pixel_FX_Texture_570
+  - first:
+      213: -102616548752328412
+    second: 00_Pixel_FX_Texture_571
+  - first:
+      213: -4689936253525210041
+    second: 00_Pixel_FX_Texture_572
+  - first:
+      213: -5711523977037034086
+    second: 00_Pixel_FX_Texture_573
+  - first:
+      213: -6380080696210107861
+    second: 00_Pixel_FX_Texture_574
+  - first:
+      213: -4968798629270835540
+    second: 00_Pixel_FX_Texture_575
+  - first:
+      213: -7157059136988331625
+    second: 00_Pixel_FX_Texture_576
+  - first:
+      213: 9116634713360791319
+    second: 00_Pixel_FX_Texture_577
+  - first:
+      213: -7976833638450487863
+    second: 00_Pixel_FX_Texture_594
+  - first:
+      213: 274971721342970556
+    second: 00_Pixel_FX_Texture_595
+  - first:
+      213: -8348333102434174633
+    second: 00_Pixel_FX_Texture_596
+  - first:
+      213: -7932090172380990764
+    second: 00_Pixel_FX_Texture_597
+  - first:
+      213: -7121068747682176477
+    second: 00_Pixel_FX_Texture_598
+  - first:
+      213: 7879148067180774100
+    second: 00_Pixel_FX_Texture_599
+  - first:
+      213: -5059590583223719381
+    second: 00_Pixel_FX_Texture_600
+  - first:
+      213: 2550905120345625841
+    second: 00_Pixel_FX_Texture_601
+  - first:
+      213: -4539798887153188965
+    second: 00_Pixel_FX_Texture_602
+  - first:
+      213: 50883716163248748
+    second: 00_Pixel_FX_Texture_603
+  - first:
+      213: -761139077304018050
+    second: 00_Pixel_FX_Texture_604
+  - first:
+      213: -3313301002169708352
+    second: 00_Pixel_FX_Texture_605
+  - first:
+      213: 3349665236959354742
+    second: 00_Pixel_FX_Texture_606
+  - first:
+      213: 941141249901084927
+    second: 00_Pixel_FX_Texture_607
+  - first:
+      213: 2530301019504927778
+    second: 00_Pixel_FX_Texture_608
+  - first:
+      213: -7045875523939572433
+    second: 00_Pixel_FX_Texture_609
+  - first:
+      213: -7427978480862390109
+    second: 00_Pixel_FX_Texture_610
+  - first:
+      213: -9109946565374470069
+    second: 00_Pixel_FX_Texture_611
+  - first:
+      213: -1513587464596034329
+    second: 00_Pixel_FX_Texture_612
+  - first:
+      213: 6081096293031750051
+    second: 00_Pixel_FX_Texture_613
+  - first:
+      213: -3148688829404145666
+    second: 00_Pixel_FX_Texture_614
+  - first:
+      213: 1324540740554196809
+    second: 00_Pixel_FX_Texture_615
+  - first:
+      213: 3077383183684099606
+    second: 00_Pixel_FX_Texture_616
+  - first:
+      213: 5661307854184876579
+    second: 00_Pixel_FX_Texture_617
+  - first:
+      213: 8028429183360831395
+    second: 00_Pixel_FX_Texture_620
+  - first:
+      213: -1775073283623098193
+    second: 00_Pixel_FX_Texture_624
+  - first:
+      213: -7311112581572831750
+    second: 00_Pixel_FX_Texture_628
+  - first:
+      213: 7919043600563186022
+    second: 00_Pixel_FX_Texture_632
+  - first:
+      213: -8396611242150714421
+    second: 00_Pixel_FX_Texture_633
+  - first:
+      213: 8388043659122411469
+    second: 00_Pixel_FX_Texture_634
+  - first:
+      213: -2797404789928839877
+    second: 00_Pixel_FX_Texture_635
+  - first:
+      213: 8436558244208371077
+    second: 00_Pixel_FX_Texture_636
+  - first:
+      213: 8799492300000620072
+    second: 00_Pixel_FX_Texture_637
+  - first:
+      213: 4716641741475421096
+    second: 00_Pixel_FX_Texture_638
+  - first:
+      213: -6806729430486693875
+    second: 00_Pixel_FX_Texture_639
+  - first:
+      213: -1900272669769769302
+    second: 00_Pixel_FX_Texture_656
+  - first:
+      213: 5988589376265675761
+    second: 00_Pixel_FX_Texture_664
+  - first:
+      213: 4884959562684891891
+    second: 00_Pixel_FX_Texture_668
+  - first:
+      213: -574197955564911753
+    second: 00_Pixel_FX_Texture_672
+  - first:
+      213: 5729293232275204407
+    second: 00_Pixel_FX_Texture_673
+  - first:
+      213: -6839428177188793783
+    second: 00_Pixel_FX_Texture_674
+  - first:
+      213: 6021466236105113977
+    second: 00_Pixel_FX_Texture_675
+  - first:
+      213: 3306804565122237012
+    second: 00_Pixel_FX_Texture_676
+  - first:
+      213: 7645197727810402364
+    second: 00_Pixel_FX_Texture_677
+  - first:
+      213: -5521566134513902667
+    second: 00_Pixel_FX_Texture_678
+  - first:
+      213: -5330345275101058491
+    second: 00_Pixel_FX_Texture_679
+  - first:
+      213: 799567785421382450
+    second: 00_Pixel_FX_Texture_710
+  - first:
+      213: 5990570569469651646
+    second: 00_Pixel_FX_Texture_711
+  - first:
+      213: 2983076883220099169
+    second: 00_Pixel_FX_Texture_712
+  - first:
+      213: -703606771770072859
+    second: 00_Pixel_FX_Texture_713
+  - first:
+      213: -5591857149197595637
+    second: 00_Pixel_FX_Texture_714
+  - first:
+      213: 9109903025810070583
+    second: 00_Pixel_FX_Texture_715
+  - first:
+      213: -8957915432366298923
+    second: 00_Pixel_FX_Texture_716
+  - first:
+      213: 2835781925093160043
+    second: 00_Pixel_FX_Texture_717
+  - first:
+      213: 4447378304012381691
+    second: 00_Pixel_FX_Texture_747
+  - first:
+      213: 4921654279898291079
+    second: 00_Pixel_FX_Texture_748
+  - first:
+      213: -1384438626888632168
+    second: 00_Pixel_FX_Texture_749
+  - first:
+      213: 3878218900524463660
+    second: 00_Pixel_FX_Texture_750
+  - first:
+      213: -2609738660136371203
+    second: 00_Pixel_FX_Texture_751
+  - first:
+      213: -8049592580222961685
+    second: 00_Pixel_FX_Texture_752
+  - first:
+      213: -6207858790833804375
+    second: 00_Pixel_FX_Texture_753
+  - first:
+      213: 7380927465457402661
+    second: 00_Pixel_FX_Texture_754
+  - first:
+      213: 290065046316065992
+    second: 00_Pixel_FX_Texture_755
+  - first:
+      213: 3483914665080522739
+    second: 00_Pixel_FX_Texture_759
+  - first:
+      213: 7338638427778835601
+    second: 00_Pixel_FX_Texture_763
+  - first:
+      213: 2117569384695513986
+    second: 00_Pixel_FX_Texture_767
+  - first:
+      213: 2993886491869112355
+    second: 00_Pixel_FX_Texture_771
+  - first:
+      213: 1582459259218913761
+    second: 00_Pixel_FX_Texture_775
+  - first:
+      213: 201140574436422460
+    second: 00_Pixel_FX_Texture_787
+  - first:
+      213: -7654707035452757831
+    second: 00_Pixel_FX_Texture_791
+  - first:
+      213: 6002666404097822475
+    second: 00_Pixel_FX_Texture_795
+  - first:
+      213: -6177394420860770041
+    second: 00_Pixel_FX_Texture_799
+  - first:
+      213: -469165153732543562
+    second: 00_Pixel_FX_Texture_803
+  - first:
+      213: -4715393619098029654
+    second: 00_Pixel_FX_Texture_807
+  - first:
+      213: -2173850975047968723
+    second: 00_Pixel_FX_Texture_811
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b381b35b949d240800000000000000
+      internalID: 4816962319178808194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba81a5ba7eedc8f0800000000000000
+      internalID: -518496171277055300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a5496b9f43fd180800000000000000
+      internalID: -9088487275895694784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1515f3ba7360ac70800000000000000
+      internalID: 8980287035633112349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b9059dd5591670800000000000000
+      internalID: 8509927381069837535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072faa8bf0f471d90800000000000000
+      internalID: -7127140956349205904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701c463efe5e1ebc0800000000000000
+      internalID: -3755467795775307513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3632a144a8fe0e0800000000000000
+      internalID: -2238418464678911049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 464
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975598e13f9ddec80800000000000000
+      internalID: -8291731700706617991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914d4a7831867a1a0800000000000000
+      internalID: -6798350679403080679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc0df06b9c9c860800000000000000
+      internalID: 7550788034049919876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d60fc7c922a950800000000000000
+      internalID: 6458770753751274543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce503e2c88bf3e0c0800000000000000
+      internalID: -4547514633910286868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0e762ba9498db70800000000000000
+      internalID: 8924046053773664433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8543d8df2fd0210800000000000000
+      internalID: 1300963038189607096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8bc4ed404e60db0800000000000000
+      internalID: -4825919241120335622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ab75b3c1f9129e0800000000000000
+      internalID: -1647861045037385188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1055eea14044f6010800000000000000
+      internalID: 1184240011444114689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ba1715523d13470800000000000000
+      internalID: 8372705339492117399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4851fb2e4b9ad5f0800000000000000
+      internalID: -731101229447292849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a915cd1ab22b5c550800000000000000
+      internalID: 6180541964104782234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbec8338595bc9b10800000000000000
+      internalID: 1989664789147209407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bae172f00e0a5fd0800000000000000
+      internalID: -2352552458117322055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e1f0e36626a5ef0800000000000000
+      internalID: -118674248904532472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_73
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560f976c654c160f0800000000000000
+      internalID: -1125402554889801627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d8ee86f2c316960800000000000000
+      internalID: 7593416621044960612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_77
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5252f270e4ba3d40800000000000000
+      internalID: 5564959165663826525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aba545363982fa0800000000000000
+      internalID: -5825244063177459141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_81
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378d9b85f46df5c60800000000000000
+      internalID: 7809195915163064435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a93289260591ae0800000000000000
+      internalID: -1578141810027161065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_85
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e3bb9fd31bd000800000000000000
+      internalID: 61664871010526596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27596a97d83ea91c0800000000000000
+      internalID: -4496031081205164686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e897e7b81bd9c9f0800000000000000
+      internalID: -447585788735547167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e91b9c6a1887440800000000000000
+      internalID: 4933835945132793455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a77bf680426f770800000000000000
+      internalID: 8644136153436879423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e43c6fea4e5f1670800000000000000
+      internalID: 8511625496690963682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2282fe7d35d0df7d0800000000000000
+      internalID: -2883133532691027934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c615a27fdd6574b30800000000000000
+      internalID: 4271478282918711660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555d2796924fdc260800000000000000
+      internalID: 7119615044642592085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_131
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c41edbd2ca4f6d0800000000000000
+      internalID: -2957549742816408524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049497bb3c2d24ed0800000000000000
+      internalID: -2431149110720902848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b31d5f978630ba0800000000000000
+      internalID: -6123936195269280876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d6902e87134c460800000000000000
+      internalID: 7260982894486187291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_139
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a28b9ea5873a83f0800000000000000
+      internalID: -897844128407387480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce6d69963c300000800000000000000
+      internalID: 66205199986376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_143
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d85bac8b71d8f30800000000000000
+      internalID: 4579342478547979542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_145
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ec839feb8d23c20800000000000000
+      internalID: 3184846201240997521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_147
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26639c127c242f00800000000000000
+      internalID: 1091045878347818543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ff8b3f896f5ab50800000000000000
+      internalID: 6603955565393149727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_173
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf987ba848a07b830800000000000000
+      internalID: 4086746751241259515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_175
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5368f09f628dd0800000000000000
+      internalID: -2485301375921856930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_177
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d935aa3446c5170800000000000000
+      internalID: 8168514065926430073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87153358c233a420800000000000000
+      internalID: 2640009642540078988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52bd082bb318b5a0800000000000000
+      internalID: -6505427967184883109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_183
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0d29cb62ace11e0800000000000000
+      internalID: -2225118898153140022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_185
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30121df88df29e270800000000000000
+      internalID: 8280201997069656323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_187
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb529a098dedd2020800000000000000
+      internalID: 2318754404886980028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_189
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e42625fb7d0960d0800000000000000
+      internalID: -3429194815220865818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_191
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b77f8ce85af9f80800000000000000
+      internalID: -8097571572313261178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_219
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037b5533d3392a1c0800000000000000
+      internalID: -4493867587098790096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_221
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc363c41d6800c10800000000000000
+      internalID: 2017760866546892028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_223
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d799fc1dc06411060800000000000000
+      internalID: 6922391123118758269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_225
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18618d6fa4ae43d80800000000000000
+      internalID: -8271729007882922367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_227
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe07d02636d4e2f0800000000000000
+      internalID: -944394493873418562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_229
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca011ad5eb725970800000000000000
+      internalID: 8742186053815831240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_231
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc467db42fa287df0800000000000000
+      internalID: -182348564765645619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_233
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b484e2904affef0800000000000000
+      internalID: -72158709676487860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_235
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cac099ff2a16ea0800000000000000
+      internalID: -5881240419701052353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_237
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea8ed84d2a4d26a0800000000000000
+      internalID: -6472435531105006875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_239
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed778c366f215300800000000000000
+      internalID: 239024371376029158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_241
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a512b66ac45f3b680800000000000000
+      internalID: -8740372742237642406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_276
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebefee1fae83bef0800000000000000
+      internalID: -93574284455187484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_278
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64fdd4511953a40800000000000000
+      internalID: 5347339653259151042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_280
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1071efb7ebc0ca00800000000000000
+      internalID: 774843332124831772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_282
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d3961663ab5e70800000000000000
+      internalID: 9105050730520369518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_284
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f3630eea3d634c0800000000000000
+      internalID: -4308023245493878924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_286
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e283754ab9607300800000000000000
+      internalID: 247814228255408869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_289
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878afe7fb1b4068b0800000000000000
+      internalID: -5161042589470709640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_291
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526311da80757fd40800000000000000
+      internalID: 5618054754942924325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_293
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eb469703d8aeed0800000000000000
+      internalID: -2383937813404664243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_295
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78020594fe808f200800000000000000
+      internalID: 213930806120292487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_297
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d015a27bcff705550800000000000000
+      internalID: 6147554214742216973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_299
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ae225b304b5430800000000000000
+      internalID: 3772679736378960101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_301
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2bcb04339d86a60800000000000000
+      internalID: 7667617179750937281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_303
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384dd3b07e3a9ddc0800000000000000
+      internalID: -3613677013266738045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_305
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf46427ec3e97390800000000000000
+      internalID: -7819968802132176961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_349
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07ef1d4abeb0420800000000000000
+      internalID: 2597428703239499953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_352
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152a31c7ce3151ba0800000000000000
+      internalID: -6118962612298079663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_355
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f515b73755559d0800000000000000
+      internalID: -2786226839980253410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_358
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372dcf7bb8a931c50800000000000000
+      internalID: 6634816600924803699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_361
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45482b8b8f811020800000000000000
+      internalID: 2310785913315673419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_364
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2404df3e85aa9cc0800000000000000
+      internalID: -3703465713184013270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_367
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a797d4110ab4225e0800000000000000
+      internalID: -1935901738958751366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_442
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6946b5634908baec0800000000000000
+      internalID: -3554606106823400298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_445
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103e13da6317e8c0800000000000000
+      internalID: -3970183196974370785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_448
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d336633320cfb5680800000000000000
+      internalID: -8765135163367201987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_451
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a5e33d91fafccb0800000000000000
+      internalID: -4841458548946871698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_454
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d438a175f0e76e0800000000000000
+      internalID: -1838014731139199619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_457
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58a6d8ca12d82670800000000000000
+      internalID: 8514286108024416351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_460
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb300eaf16f20d00800000000000000
+      internalID: 937582288370154491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_463
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2589ec2ae98dca690800000000000000
+      internalID: -7589453096178247598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_466
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9807fb2c6326b49e0800000000000000
+      internalID: -1636106052283961207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_469
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93aec42c6b0ff720800000000000000
+      internalID: 2882034845642302365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_472
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd547821618b0a6c0800000000000000
+      internalID: -4134102052986468901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_475
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc565487d42ed5c60800000000000000
+      internalID: 7808646151288481231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_594
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd95c3a1189c4190800000000000000
+      internalID: -7976833638450487863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_598
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322a449f3b1ec2d90800000000000000
+      internalID: -7121068747682176477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_602
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f358b07f46ff0c0800000000000000
+      internalID: -4539798887153188965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_606
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fdf6529c66c7e20800000000000000
+      internalID: 3349665236959354742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_610
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a893f04de48ae890800000000000000
+      internalID: -7427978480862390109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_614
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7102f213c9d44d0800000000000000
+      internalID: -3148688829404145666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_620
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af0a9a4ec5ba6f60800000000000000
+      internalID: 8028429183360831395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_624
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8eb57d04cad57e0800000000000000
+      internalID: -1775073283623098193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_628
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5567ec7d5b98a90800000000000000
+      internalID: -7311112581572831750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_656
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae5dfd2310e0a5e0800000000000000
+      internalID: -1900272669769769302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_664
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f36efd0f4ebb1350800000000000000
+      internalID: 5988589376265675761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_668
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f20bf337dcdac340800000000000000
+      internalID: 4884959562684891891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_747
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdef68110348bd30800000000000000
+      internalID: 4447378304012381691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_751
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbb7fdf38858cbd0800000000000000
+      internalID: -2609738660136371203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_755
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c42d6f6f94860400800000000000000
+      internalID: 290065046316065992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_759
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f706e7ede9595030800000000000000
+      internalID: 3483914665080522739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_763
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194e9cea4c418d560800000000000000
+      internalID: 7338638427778835601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_767
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c402d22e136d10800000000000000
+      internalID: 2117569384695513986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_771
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e2bde6eb6c8920800000000000000
+      internalID: 2993886491869112355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_775
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96541ef4606f510800000000000000
+      internalID: 1582459259218913761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_787
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33733969489ac200800000000000000
+      internalID: 201140574436422460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_791
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8a724f18405c590800000000000000
+      internalID: -7654707035452757831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_795
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f0c618a41cd4350800000000000000
+      internalID: 6002666404097822475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_799
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7092d13e08c754aa0800000000000000
+      internalID: -6177394420860770041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_803
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbb7c647c03d79f0800000000000000
+      internalID: -469165153732543562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_807
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1b4859c7e8f8eb0800000000000000
+      internalID: -4715393619098029654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00_Pixel_FX_Texture_811
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2811a54e0ee4d1e0800000000000000
+      internalID: -2173850975047968723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

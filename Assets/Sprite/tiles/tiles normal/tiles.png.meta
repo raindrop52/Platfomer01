@@ -190,7 +190,7 @@ TextureImporter:
     second: tiles_61
   - first:
       213: -6765549610841505982
-    second: tiles_62
+    second: jumper_0
   - first:
       213: 4998937224500876124
     second: tiles_63
@@ -247,7 +247,7 @@ TextureImporter:
     second: tiles_80
   - first:
       213: -4954369765903962290
-    second: tiles_81
+    second: jumper_1
   - first:
       213: 9186100028781630357
     second: tiles_82
@@ -286,7 +286,7 @@ TextureImporter:
     second: tiles_93
   - first:
       213: -3239889426108392424
-    second: tiles_94
+    second: jumper_2
   - first:
       213: 5532331755474975849
     second: tiles_95
@@ -322,7 +322,7 @@ TextureImporter:
     second: tiles_105
   - first:
       213: -4398118056257393346
-    second: tiles_106
+    second: jumper_3
   - first:
       213: -8784054672525020626
     second: tiles_107
@@ -1921,7 +1921,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_62
+      name: jumper_0
       rect:
         serializedVersion: 2
         x: 176
@@ -2320,7 +2320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_81
+      name: jumper_1
       rect:
         serializedVersion: 2
         x: 176
@@ -2593,7 +2593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_94
+      name: jumper_2
       rect:
         serializedVersion: 2
         x: 176
@@ -2845,7 +2845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_106
+      name: jumper_3
       rect:
         serializedVersion: 2
         x: 176

@@ -5,15 +5,17 @@ using UnityEngine;
 public class ShootTrap : Trap
 {
     [SerializeField] GameObject _newImg;    // 이미지 표시
-    [SerializeField] bool _bShoot = false;  // 발사 쿨타임 관리
     [SerializeField] AudioSource _sfx;      // 투사체 발사 소리
+    [SerializeField] float _speed;
+    [SerializeField] float _scale;
+    bool _bShoot = false;  // 발사 쿨타임 관리
 
     public override void Restore()
     {
         base.Restore();
 
         _bShoot = false;
-        if (_newImg.activeSelf == true)
+        if (_newImg != null && _newImg.activeSelf == true)
             _newImg.SetActive(false);
     }
 
@@ -37,10 +39,24 @@ public class ShootTrap : Trap
         if(_obstacle != null)
         {
             GameObject go = Instantiate(_obstacle);
-            go.transform.position = _showTrans.position;
+            if (_showTrans != null)
+                go.transform.position = _showTrans.position;
+            else
+                go.transform.position = transform.position;
+
+            if (_scale != 0)
+                go.transform.localScale = new Vector2(_scale, _scale);
+
             Obstacle obs = go.GetComponent<Obstacle>();
             if (obs != null)
+            {
                 obs.Init();
+                Spike spike = go.GetComponent<Spike>();
+                if(spike != null)
+                {
+                    spike.Speed = _speed;
+                }
+            }
         }
 
         yield return new WaitForSeconds(1.0f);

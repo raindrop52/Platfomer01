@@ -12,15 +12,36 @@ public class Player : MonoBehaviour
     public float _fMaxSpeed = 5f;
     public float _fJumpPower = 8f;
 
-    bool _isJump = false;
+    [SerializeField] bool _bPlayerState = false;      // 플레이어의 이동 상태 확인
+    [SerializeField] bool _bJumpState = false;       // 점프 상태 확인
+    public bool JumpState
+    {
+        get { return _bJumpState; }
+    }
 
     [SerializeField] GameObject _fxDie;
+    ParticleSystem _psDie;
 
+    public Item _myItem;
+    
     private void Awake()
     {
         _rigid2D = GetComponent<Rigidbody2D>();
+        _rigid2D.velocity = Vector2.zero;
         _anim = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
+    }
+
+    public void Init()
+    {
+        // 죽는 이펙트 생성
+        if (_fxDie != null)
+        {
+            GameObject go = Instantiate(_fxDie);
+            go.transform.localPosition = transform.position;
+            go.transform.SetParent(GameManager.i.transform);
+            _psDie = go.GetComponent<ParticleSystem>();
+        }
     }
 
     void Update()
@@ -32,24 +53,32 @@ public class Player : MonoBehaviour
         }
 
         // 점프
-        if (Input.GetKeyDown(KeyCode.X) && _isJump == false
+        if (Input.GetKeyDown(KeyCode.X) && _bJumpState == false
             && _anim.GetBool("IsJump") == false)
         {
-            _isJump = true;
+            _bJumpState = true;
             _rigid2D.AddForce(Vector2.up * _fJumpPower, ForceMode2D.Impulse);
             _anim.SetBool("IsJump", true);
         }
 
         // 정지 애니메이션 처리
         if (Mathf.Abs(_rigid2D.velocity.x) <= 0.1)        // 멈춤 상태
+        {
+            _bPlayerState = false;
             _anim.SetBool("IsRun", false);
+        }
         else
+        {
+            _bPlayerState = true;
             _anim.SetBool("IsRun", true);
+        }
+
         // 정지 가속도
         if (Input.GetButtonUp("Horizontal"))
         {
             _rigid2D.velocity = new Vector2(0.5f * _rigid2D.velocity.normalized.x, _rigid2D.velocity.y);
         }
+
         // 방향 전환
         // 왼쪽이면 true, 오른쪽이면 false
         if(Input.GetButton("Horizontal"))
@@ -71,17 +100,31 @@ public class Player : MonoBehaviour
 
         Debug.DrawRay(_rigid2D.position, Vector3.down, new Color(0, 1, 0));
         RaycastHit2D rayHit = Physics2D.Raycast(_rigid2D.position, Vector3.down, 2, LayerMask.GetMask("Ground"));
-
-        if (_rigid2D.velocity.y < 0)    // 아래로 떨어질 때만
+        
+        if (_rigid2D.velocity.y == 0f)
         {
+            if (_bJumpState)
+                _bJumpState = false;
+
+            if (_anim.GetBool("IsJump"))
+                _anim.SetBool("IsJump", false);
+        }
+        else if (_rigid2D.velocity.y < 0f)    // 아래로 떨어질 때만
+        {
+            // 공중에 여전히 있으면
+            if (rayHit.collider == null)
+                // 애니메이션 적용
+                _anim.SetBool("IsJump", true);
             // 빔을 맞은 오브젝트가 있으면
-            if (rayHit.collider != null && _isJump == true
-                && _anim.GetBool("IsJump") == true)
+            if (rayHit.collider != null)
             {
+                // 땅과의 거리를 체크해서
                 if (rayHit.distance < 0.98f)
                 {
+                    // 애니메이션 해제
                     _anim.SetBool("IsJump", false);
-                    _isJump = false;
+                    // 점프 상태 해제
+                    _bJumpState = false;
                 }
             }
         }
@@ -94,19 +137,31 @@ public class Player : MonoBehaviour
             // 사망 시 보스전 변수 해제
             GameManager.i.BossOn = false;
         }
-        
-        Invoke("Disapear", 0f);
+
+        StartCoroutine(PlayerDie());
     }
 
-    void Disapear()
+    IEnumerator PlayerDie()
     {
-        if(_fxDie != null)
-        {
-            GameObject go = Instantiate(_fxDie);
-            go.transform.localPosition = transform.position;
-        }    
+        // 플레이어의 움직임 제어
+        _rigid2D.bodyType = RigidbodyType2D.Kinematic;
 
-        Destroy(gameObject);
+        // 죽는 이펙트 표시
+        if (_psDie != null)
+        {
+            _psDie.transform.position = transform.position;
+            _psDie.gameObject.SetActive(true);
+            _psDie.Play();
+        }
+
+        // 게임 매니저에 게임오버 전달
+        if (GameManager.i != null)
+            GameManager.i.GameOver = true;
+
+        // 플레이어 비활성화
+        gameObject.SetActive(false);
+
+        yield return null;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -130,10 +185,18 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Resurrection()
+    public void Resurrection(Vector2 resPos)
     {
         // 부활 시 내려올 때 점프 방지
         _anim.SetBool("IsJump", true);
-        _isJump = true;
+        _bJumpState = true;
+        _rigid2D.bodyType = RigidbodyType2D.Dynamic;
+        transform.position = resPos;
+
+        if (transform.parent != null)
+            transform.SetParent(null);
+
+        if (_myItem != null)
+            _myItem = null;
     }
 }

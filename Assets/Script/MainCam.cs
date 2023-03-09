@@ -7,11 +7,6 @@ public class MainCam : MonoBehaviour
     [SerializeField] float _minXCameraBoundary;
     [SerializeField] float _maxXCameraBoundary;
 
-    void Start()
-    {
-        
-    }
-
     void FixedUpdate()
     {
         if(GameManager.i.pPlayer != null)

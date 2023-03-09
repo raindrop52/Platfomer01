@@ -7,6 +7,11 @@ public class Spike : Obstacle
     bool _bHorizontal = false;
     SpriteRenderer _render;
     [SerializeField] float _speed;
+    public float Speed
+    {
+        get { return _speed; }
+        set { _speed = value; }
+    }
 
     public override void Init(float time = 1F)
     {
