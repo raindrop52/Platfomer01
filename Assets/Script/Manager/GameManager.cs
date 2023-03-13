@@ -24,6 +24,16 @@ public class GameManager : MonoBehaviour
         get { return _bBossOn; }
         set { _bBossOn = value; }
     }
+    // 보스룸 카메라 위치
+    bool _bBossCamOn = false;
+    [SerializeField] float _fCamOffsetX;
+    // 보스 번호
+    int _nBossNo = -1;
+    public int BossNo
+    {
+        get { return _nBossNo; }
+        set { _nBossNo = value; }
+    }
     // 게임 오버 여부
     bool _bGameOver = false;
     public bool GameOver
@@ -65,6 +75,18 @@ public class GameManager : MonoBehaviour
             TrapManager.i.AllTrapRestore();
 
             _bGameOver = false;
+        }
+
+        // 보스전 시작 시
+        if (_bBossOn && !_bBossCamOn)
+        {
+            _bBossCamOn = true;
+            Vector3 camPos = Camera.main.transform.position;
+            Camera.main.transform.position = new Vector3(camPos.x + _fCamOffsetX, camPos.y, camPos.z);
+        }
+        else if (!_bBossOn && _bBossCamOn)
+        {
+            _bBossCamOn = false;
         }
     }
 

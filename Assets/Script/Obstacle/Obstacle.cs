@@ -6,7 +6,7 @@ public class Obstacle : MonoBehaviour
 {
     public virtual void Init(float time = 1f)
     {
-        Invoke("Disapear", time);
+        
     }
 
     protected void Disapear()

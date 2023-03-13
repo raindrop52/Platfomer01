@@ -12,26 +12,62 @@ public class Spike : Obstacle
         get { return _speed; }
         set { _speed = value; }
     }
+    Vector2 _pos;
+
+    private void Awake()
+    {
+        _render = GetComponentInChildren<SpriteRenderer>();
+    }
+
+    [SerializeField] bool bTest = false;
+    private void Update()
+    {
+        if (bTest)
+        {
+            transform.Translate(Vector2.right * _speed * Time.deltaTime);
+            //bTest = false;
+            //StartCoroutine(Fire());
+        }
+    }
 
     public override void Init(float time = 1F)
     {
         base.Init(time);
 
-        _render = GetComponent<SpriteRenderer>();
+        gameObject.SetActive(false);
 
         // ÁÂ¿ì
-        if (transform.eulerAngles.y != 0)
+        if (transform.GetChild(0).eulerAngles.z != 0)
             _bHorizontal = true;
 
-        StartCoroutine(Fire());
+        if (_pos == Vector2.zero)
+            _pos = transform.position;
     }
 
-    IEnumerator Fire()
+    public void Fire()
     {
+
+        if (_speed > 0)
+        {
+            if (gameObject.activeSelf == false)
+                gameObject.SetActive(true);
+            StartCoroutine(IFire());
+        }
+    }
+
+    IEnumerator IFire()
+    {
+        transform.position = _pos;
+
         while (true)
         {
             if(_bHorizontal)
             {
+                if (Mathf.Abs(Vector2.Distance(transform.position, _pos)) >= _speed)
+                {
+                    break;
+                }
+
                 // ÁÂÃø ÀÌµ¿
                 if(_render.flipY)
                     transform.Translate(Vector2.left * _speed * Time.deltaTime);
@@ -50,6 +86,16 @@ public class Spike : Obstacle
             }
             
             yield return null;
+        }
+
+        gameObject.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("DeathObj"))
+        {
+            gameObject.SetActive(false);
         }
     }
 }

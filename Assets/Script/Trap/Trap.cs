@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
-    [SerializeField] protected GameObject _obstacle;
+    [SerializeField] protected GameObject _prefabObs;
     [SerializeField] protected Transform _showTrans;
 
-    void Start()
+    public virtual void Init()
     {
-        
+
     }
 
     public virtual void Restore()

@@ -94,7 +94,7 @@ TextureImporter:
     second: objects_30
   - first:
       213: 4698315425400886581
-    second: objects_31
+    second: root
   - first:
       213: 2197855871317943228
     second: objects_32
@@ -103,7 +103,7 @@ TextureImporter:
     second: objects_33
   - first:
       213: -5884573130030058871
-    second: objects_34
+    second: seed
   - first:
       213: 5898155415433455342
     second: objects_35
@@ -1093,7 +1093,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_31
+      name: root
       rect:
         serializedVersion: 2
         x: 17
@@ -1156,7 +1156,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_34
+      name: seed
       rect:
         serializedVersion: 2
         x: 195

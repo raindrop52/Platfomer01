@@ -9,15 +9,7 @@ public class ShootTrap : Trap
     [SerializeField] float _speed;
     [SerializeField] float _scale;
     bool _bShoot = false;  // 발사 쿨타임 관리
-
-    public override void Restore()
-    {
-        base.Restore();
-
-        _bShoot = false;
-        if (_newImg != null && _newImg.activeSelf == true)
-            _newImg.SetActive(false);
-    }
+    Spike _spike;
 
     protected override void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,6 +20,39 @@ public class ShootTrap : Trap
         }
     }
 
+    public override void Init()
+    {
+        base.Init();
+
+        if (_prefabObs != null)
+        {
+            GameObject go = Instantiate(_prefabObs);
+            if (_showTrans != null)
+                go.transform.position = _showTrans.position;
+            else
+                go.transform.position = transform.position;
+            if (_scale != 0)
+                go.transform.localScale = new Vector2(_scale, _scale);
+
+            go.transform.SetParent(TrapManager.i._transObstacle);
+
+            Spike spike = go.GetComponent<Spike>();
+            spike.Speed = _speed;
+            spike.gameObject.SetActive(false);
+            spike.Init();
+            _spike = spike;
+        }
+    }
+
+    public override void Restore()
+    {
+        base.Restore();
+
+        _bShoot = false;
+        if (_newImg != null && _newImg.activeSelf == true)
+            _newImg.SetActive(false);
+    }
+
     IEnumerator Shoot()
     {
         _bShoot = true;
@@ -36,27 +61,9 @@ public class ShootTrap : Trap
 
         ShowImage();
 
-        if(_obstacle != null)
+        if (_spike != null)
         {
-            GameObject go = Instantiate(_obstacle);
-            if (_showTrans != null)
-                go.transform.position = _showTrans.position;
-            else
-                go.transform.position = transform.position;
-
-            if (_scale != 0)
-                go.transform.localScale = new Vector2(_scale, _scale);
-
-            Obstacle obs = go.GetComponent<Obstacle>();
-            if (obs != null)
-            {
-                obs.Init();
-                Spike spike = go.GetComponent<Spike>();
-                if(spike != null)
-                {
-                    spike.Speed = _speed;
-                }
-            }
+            _spike.Fire();
         }
 
         yield return new WaitForSeconds(1.0f);

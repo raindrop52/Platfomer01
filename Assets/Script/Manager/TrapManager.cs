@@ -6,6 +6,8 @@ public class TrapManager : MonoBehaviour
 {
     static public TrapManager i;
 
+    public Transform _transObstacle;
+
     List<Trap> _traps;
 
     private void Awake()
@@ -15,8 +17,13 @@ public class TrapManager : MonoBehaviour
 
     public void Init()
     {
+        _traps = new List<Trap>();
         Trap[] traps = GetComponentsInChildren<Trap>();
-        _traps = new List<Trap>(traps);
+        foreach(Trap trap in traps)
+        {
+            trap.Init();
+            _traps.Add(trap);
+        }
     }
 
     void Update()
