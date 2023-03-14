@@ -4,16 +4,30 @@ using UnityEngine;
 
 public class Root : Obstacle
 {
-    [SerializeField] float _upDist = 2f;
-    [SerializeField] float _speed = 1f;
+    [SerializeField] float _fUpDist = 2f;
+    [SerializeField] float _fMaxSpeed = 0.05f;
+    [SerializeField] bool test = false;
+    Vector2 _pos;
 
-    Vector2 _goal;
+    private void Update()
+    {
+        if (test)
+        {
+            test = false;
+            _pos = transform.localPosition;
+            Grow();
+        }
+    }
 
     public override void Init(float time = 1F)
     {
         base.Init(time);
+        _pos = transform.localPosition;
+    }
 
-        _goal = new Vector2(transform.position.x, transform.position.y + _upDist);
+    public void SetPosX(float x)
+    {
+        transform.localPosition = new Vector2(x, _pos.y);
     }
 
     public void Grow()
@@ -23,16 +37,25 @@ public class Root : Obstacle
 
     IEnumerator IGrowUp()
     {
-        while(true)
+        yield return new WaitForSeconds(0.75f);
+        Vector2 pos = new Vector2(transform.localPosition.x, transform.localPosition.y + _fUpDist);
+        
+        while (true)
         {
-            transform.position = Vector2.MoveTowards(transform.position, _goal, Time.deltaTime * _speed);
+            float speed = Random.Range(0.01f, _fMaxSpeed);
 
-            if(Vector2.Distance(transform.position, _goal) <= 0.01f)
+            if (Vector2.Distance(transform.localPosition, pos) <= 0.02f)
             {
                 break;
             }
 
+            transform.Translate(Vector2.up * speed);
+
             yield return null;
         }
+
+        yield return new WaitForSeconds(1.0f);
+
+        gameObject.SetActive(false);
     }
 }
