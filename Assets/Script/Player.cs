@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject _fxDie;
     ParticleSystem _psDie;
 
+    [SerializeField] bool _GodMode = false;
+
     public Item _myItem;
     
     private void Awake()
@@ -132,11 +134,8 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        if (GameManager.i.BossOn)
-        {
-            // 사망 시 보스전 변수 해제
-            GameManager.i.BossOn = false;
-        }
+        if (_GodMode)
+            return;
 
         StartCoroutine(PlayerDie());
     }

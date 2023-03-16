@@ -55,6 +55,9 @@ public class GameManager : MonoBehaviour
         if (TrapManager.i != null)
             TrapManager.i.Init();
 
+        if (BossManager.i != null)
+            BossManager.i.Init();
+
         if (!_bStart)
         {
             _bStart = true;
@@ -74,6 +77,12 @@ public class GameManager : MonoBehaviour
             // 트랩 매니저 초기화 동작
             TrapManager.i.AllTrapRestore();
 
+            // 보스 매니저 초기화 동작
+            if (_bBossOn)
+                _bBossOn = false;
+            BossManager.i.AllRestore();
+
+            // 게임오버 초기화
             _bGameOver = false;
         }
 

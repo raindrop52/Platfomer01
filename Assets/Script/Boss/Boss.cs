@@ -15,7 +15,9 @@ public class Boss : MonoBehaviour
     // 보스 타격 이펙트
     [SerializeField] ParticleSystem _psHit;
     // 보스 공격 오브젝트
-    [Header("공격 오브젝트")]
+    [Header("공격 A")]
+    Projectil_Fire _projFire;
+    [Header("공격 B")]
     [SerializeField] GameObject _preAttack;
     [SerializeField] int _nMinCnt;
     [SerializeField] int _nMaxCnt;
@@ -35,8 +37,9 @@ public class Boss : MonoBehaviour
     void Awake()
     {
         _anim = GetComponent<Animator>();
+        _projFire = GetComponent<Projectil_Fire>();
 
-        CreateAttack();
+        CreateAttackTypeB();
 
         _hp = _oldHp;
     }
@@ -147,7 +150,10 @@ public class Boss : MonoBehaviour
             case 3:
                 {
                     // A타입 어택
-
+                    if(_projFire != null)
+                    {
+                        _projFire.AllFire();
+                    }
                     break;
                 }
             case 2:
@@ -209,10 +215,8 @@ public class Boss : MonoBehaviour
         }
     }
 
-    void CreateAttack()
+    void CreateAttackTypeB()
     {
-        
-        // B
         if (_preAttack != null && _nMaxCnt > _nMinCnt)
         {
             _obsAtks = new List<Obstacle>();

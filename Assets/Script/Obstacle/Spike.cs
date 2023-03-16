@@ -19,20 +19,9 @@ public class Spike : Obstacle
         _render = GetComponentInChildren<SpriteRenderer>();
     }
 
-    [SerializeField] bool bTest = false;
-    private void Update()
+    public override void Init()
     {
-        if (bTest)
-        {
-            transform.Translate(Vector2.right * _speed * Time.deltaTime);
-            //bTest = false;
-            //StartCoroutine(Fire());
-        }
-    }
-
-    public override void Init(float time = 1F)
-    {
-        base.Init(time);
+        base.Init();
 
         gameObject.SetActive(false);
 
@@ -61,41 +50,33 @@ public class Spike : Obstacle
 
         while (true)
         {
-            if(_bHorizontal)
+            if (Mathf.Abs(Vector2.Distance(transform.position, _pos)) >= _speed)
             {
-                if (Mathf.Abs(Vector2.Distance(transform.position, _pos)) >= _speed)
-                {
-                    break;
-                }
+                break;
+            }
 
+            if (_bHorizontal)
+            {
                 // 좌측 이동
                 if(_render.flipY)
-                    transform.Translate(Vector2.left * _speed * Time.deltaTime);
+                    transform.Translate(Vector2.left.normalized * _speed * Time.deltaTime);
                 // 우측이동
                 else
-                    transform.Translate(Vector2.right * _speed * Time.deltaTime);
+                    transform.Translate(Vector2.right.normalized * _speed * Time.deltaTime);
             }
             else
             {
                 // 상승
                 if (_render.flipY)
-                    transform.Translate(Vector2.up * _speed * Time.deltaTime);
+                    transform.Translate(Vector2.up.normalized * _speed * Time.deltaTime);
                 // 하강
                 else
-                    transform.Translate(Vector2.down * _speed * Time.deltaTime);
+                    transform.Translate(Vector2.down.normalized * _speed * Time.deltaTime);
             }
-            
+
             yield return null;
         }
 
         gameObject.SetActive(false);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("DeathObj"))
-        {
-            gameObject.SetActive(false);
-        }
     }
 }

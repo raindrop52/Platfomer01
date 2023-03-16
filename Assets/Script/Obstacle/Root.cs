@@ -19,9 +19,9 @@ public class Root : Obstacle
         }
     }
 
-    public override void Init(float time = 1F)
+    public override void Init()
     {
-        base.Init(time);
+        base.Init();
         _pos = transform.localPosition;
     }
 
@@ -56,6 +56,6 @@ public class Root : Obstacle
 
         yield return new WaitForSeconds(1.0f);
 
-        gameObject.SetActive(false);
+        Show(false);
     }
 }
