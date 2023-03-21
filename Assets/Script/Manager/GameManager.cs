@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager i;
+
+    int _nSceneNo = 0;
 
     // Player
     [SerializeField] GameObject _playerPrefab;  // 플레이어 프리팹
@@ -18,6 +21,7 @@ public class GameManager : MonoBehaviour
     // 게임 시작 여부
     bool _bStart = false;
     // 보스 진입 여부
+    Boss _boss;
     [SerializeField] bool _bBossOn = false;
     public bool BossOn
     {
@@ -55,8 +59,8 @@ public class GameManager : MonoBehaviour
         if (TrapManager.i != null)
             TrapManager.i.Init();
 
-        if (BossManager.i != null)
-            BossManager.i.Init();
+        if (_boss == null)
+            _boss = GameObject.FindWithTag("Boss").GetComponent<Boss>();
 
         if (!_bStart)
         {
@@ -77,10 +81,12 @@ public class GameManager : MonoBehaviour
             // 트랩 매니저 초기화 동작
             TrapManager.i.AllTrapRestore();
 
-            // 보스 매니저 초기화 동작
+            // 보스 초기화 동작
             if (_bBossOn)
                 _bBossOn = false;
-            BossManager.i.AllRestore();
+
+            if (_boss != null)
+                _boss.Restore();
 
             // 게임오버 초기화
             _bGameOver = false;
@@ -110,6 +116,12 @@ public class GameManager : MonoBehaviour
 
         _vecSavePoint = pos;
     }
+
+    public void GoNextScene()
+    {
+        _nSceneNo++;
+        StartCoroutine(ILoadAsyncScene());
+    }
     #endregion
 
     #region private
@@ -134,4 +146,14 @@ public class GameManager : MonoBehaviour
         }
     }
     #endregion
+
+    IEnumerator ILoadAsyncScene()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(_nSceneNo);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+    }
 }

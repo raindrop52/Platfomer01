@@ -10,8 +10,6 @@ public class Boss : MonoBehaviour
     [SerializeField] int _nNo;
     // 보스 타격 충돌체 오브젝트
     [SerializeField] GameObject _goHitGem;
-    // 동작 애니메이션 대기 변수
-    [SerializeField] bool _bPause = false;
     // 보스 타격 이펙트
     [SerializeField] ParticleSystem _psHit;
     // 보스 공격 오브젝트
@@ -22,6 +20,11 @@ public class Boss : MonoBehaviour
     [SerializeField] int _nMinCnt;
     [SerializeField] int _nMaxCnt;
     [SerializeField] List<Obstacle> _obsAtks;
+    [Header("공격 C")]
+    [SerializeField] bool _bLast = false;
+    [SerializeField] float _fUpY = 8f;       // _goUpBoss의 높이
+    [SerializeField] GameObject _goUpBoss;
+    [SerializeField] List<GameObject> _goUpTiles;
 
     // 체력
     [SerializeField] int _hp = 0;
@@ -42,6 +45,9 @@ public class Boss : MonoBehaviour
         CreateAttackTypeB();
 
         _hp = _oldHp;
+        _bLast = false;
+        if (_goUpBoss != null)
+            _goUpBoss.SetActive(false);
     }
 
     public void Restore()
@@ -49,6 +55,10 @@ public class Boss : MonoBehaviour
         // state가 0보다 크면 Die 하지 않았기에 동작할 필요 X
         if (_state >= 0)
         {
+            // 최종국면 초기화
+            _bLast = false;
+            if (_goUpBoss != null)
+                _goUpBoss.SetActive(false);
             // 휴면 상태로 전환
             ChangeState(-1);
             // Show 상태로 전환
@@ -80,6 +90,7 @@ public class Boss : MonoBehaviour
     [SerializeField] bool _bTest = false;
     private void Update()
     {
+        // 패턴 동작 테스트용 코드
         if(_bTest)
         {
             _bTest = false;
@@ -113,10 +124,27 @@ public class Boss : MonoBehaviour
         ChangeState(0);
         yield return new WaitForSeconds(0.5f);
 
+        // 2번 Hit까지의 애니메이션 동작
         while (_state >= 0)
         {
-            yield return new WaitUntil(() => _bPause == false);
+            if(_hp <= 1f)
+            {
+                ChangeState(1);
+                if(_goUpBoss.activeSelf == false)
+                {
+                    _goUpBoss.SetActive(true);
+                    
+                    while(_goUpBoss.transform.localPosition.y <= _fUpY)
+                    {
+                        _goUpBoss.transform.Translate(Vector2.up * Time.deltaTime * 10f);
 
+                        yield return null;
+                    }
+                }
+                break;
+            }
+
+            // Attak 전환
             ChangeState(2);
 
             yield return new WaitForSeconds(0.8f);
@@ -124,11 +152,19 @@ public class Boss : MonoBehaviour
             // Attack 액션
             Attack();
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(1f);
 
+            // Idle 전환
             ChangeState(1);
 
             yield return new WaitForSeconds(2f);
+        }
+
+        while(_hp > 0f)
+        {
+            yield return new WaitForSeconds(3f);
+
+            Attack();
         }
     }
 
@@ -182,7 +218,11 @@ public class Boss : MonoBehaviour
                 }
             case 1:
                 {
+                    // C타입 어택
+                    if (_goUpTiles.Count > 0)
+                    {
 
+                    }
                     break;
                 }
         }
@@ -194,6 +234,11 @@ public class Boss : MonoBehaviour
 
         if (_hp > 0)
         {
+            if (_hp == 1)
+            {
+                _bLast = true;
+            }
+
             // 충돌 이펙트 발동
             if (_psHit != null)
             {
@@ -201,7 +246,7 @@ public class Boss : MonoBehaviour
                 if (_psHit.gameObject.activeSelf == false)
                     _psHit.gameObject.SetActive(true);
 
-                // 파티클 시스템 동작   
+                // 파티클 시스템 동작
                 _psHit.Play();
             }
         }
