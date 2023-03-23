@@ -6,6 +6,8 @@ public class Boss : MonoBehaviour
 {
     // 애니메이션
     Animator _anim;
+    // 콜라이더
+    BoxCollider2D _col;
     // 보스 번호
     [SerializeField] int _nNo;
     // 보스 타격 충돌체 오브젝트
@@ -40,6 +42,7 @@ public class Boss : MonoBehaviour
     void Awake()
     {
         _anim = GetComponent<Animator>();
+        _col = GetComponent<BoxCollider2D>();
         _projFire = GetComponent<Projectil_Fire>();
 
         CreateAttackTypeB();
@@ -57,6 +60,7 @@ public class Boss : MonoBehaviour
         {
             // 최종국면 초기화
             _bLast = false;
+            _col.isTrigger = false;
             if (_goUpBoss != null)
                 _goUpBoss.SetActive(false);
             // 휴면 상태로 전환
@@ -236,6 +240,7 @@ public class Boss : MonoBehaviour
         {
             if (_hp == 1)
             {
+                _col.isTrigger = true;
                 _bLast = true;
             }
 

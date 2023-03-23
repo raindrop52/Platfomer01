@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    protected Player _player;
+
+    public virtual void Equip(Player player)
     {
+        _player = player;
+
+        Show(false);
         
+        if(UIManager.i != null)
+            UIManager.i.EquipItem(GetType().ToString());
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Use()
     {
-        
+        Show(true);
+    }
+
+    protected void Show(bool show)
+    {
+        gameObject.SetActive(show);
     }
 }

@@ -24,7 +24,7 @@ public class ItemBox : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             Player player = collision.GetComponent<Player>();
-            if(player != null && player._myItem == null)
+            if(player != null && player._goMyItem == null)
             {
                 // 아이템 획득
                 if (_item != null)
@@ -33,8 +33,16 @@ public class ItemBox : MonoBehaviour
                     StartCoroutine(UnBoxing());
                     // UI에 아이템 표시
 
+                    // 아이템 프리팹 생성
+                    GameObject goItem = Instantiate(_item.gameObject);
+                    goItem.transform.SetParent(player.transform);
+                    goItem.transform.localPosition = Vector3.zero;
+                    Item item = goItem.GetComponent<Item>();
+                    if (item != null)
+                        item.Equip(player);
+
                     // 플레이어에 아이템 전달
-                    player._myItem = _item;
+                    player._goMyItem = goItem;
                 }
             }
         }

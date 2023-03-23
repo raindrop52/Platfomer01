@@ -31,7 +31,6 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: a4d13e73249a7064996bff46985e7e0a, type: 3}
     - {fileID: 102900000, guid: f821acb1c1648884eb225c6963502e15, type: 3}
     - {fileID: 102900000, guid: e1d2fe41b76dce04bb39c116e7104e40, type: 3}
     - {fileID: 102900000, guid: 733b63b37408afe4182dbaff0b93b175, type: 3}
@@ -41,14 +40,9 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 7ed563e0d65c8d24282b918fe6daf838, type: 3}
-  - {fileID: 21300000, guid: af0049719638c674a92cfb2ac947b90c, type: 3}
   - {fileID: 21300000, guid: 9bbf98c3b807f35438d61d012d2e26a5, type: 3}
   - {fileID: 21300000, guid: 1b7dfc641c5de5743beb74882748a2bb, type: 3}
   - {fileID: 21300000, guid: 54e2d76635c1c7f40b8a61ce85e5ad1d, type: 3}
-  - {fileID: 21300000, guid: 7e52c5f6eca972b448ec7e930c8b0550, type: 3}
-  - {fileID: 21300000, guid: d7a300b776ad9b542b06ca89b4a66f1e, type: 3}
-  - {fileID: 21300000, guid: 2bfc84e888fb3e64297d5d0a36d492df, type: 3}
-  - {fileID: 21300000, guid: 33ca5be808891ba42bac93937220f488, type: 3}
   - {fileID: 21300000, guid: 284d400aa164ad4449872858d1c490e2, type: 3}
   - {fileID: 21300000, guid: 74fa9a6b82bccd74da9b2e7e96196dd0, type: 3}
   - {fileID: 21300000, guid: 3ea2440e2dca7c84b96e387dc82c6c53, type: 3}
@@ -56,14 +50,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 890b6eaedc4033741a06b45c1b6349c6, type: 3}
   m_PackedSpriteNamesToIndex:
   - Player_run1
-  - ' player_death1'
   - player_jump1
   - player_idle1
   - Player_run4
-  - ' player_death3'
-  - ' player_death4'
-  - ' player_death5'
-  - ' player_death2'
   - Player_run3
   - player_idle3
   - player_idle2

@@ -7,6 +7,10 @@ public class Player : MonoBehaviour
     Rigidbody2D _rigid2D;
     Animator _anim;
     SpriteRenderer _sprite;
+    public bool LeftView
+    {
+        get { return _sprite.flipX; }
+    }
 
     public float _fSpeed = 0.5f;
     public float _fMaxSpeed = 5f;
@@ -24,7 +28,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] bool _GodMode = false;
 
-    public Item _myItem;
+    public GameObject _goMyItem;
     
     private void Awake()
     {
@@ -51,7 +55,11 @@ public class Player : MonoBehaviour
         // 아이템 사용
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            // (현재 미구현)
+            if(_goMyItem != null && _goMyItem.activeSelf == false)
+            {
+                Item myItem = _goMyItem.GetComponent<Item>();
+                myItem.Use();
+            }
         }
 
         // 점프
@@ -195,7 +203,7 @@ public class Player : MonoBehaviour
         if (transform.parent != null)
             transform.SetParent(null);
 
-        if (_myItem != null)
-            _myItem = null;
+        if (_goMyItem != null)
+            Destroy(_goMyItem);
     }
 }

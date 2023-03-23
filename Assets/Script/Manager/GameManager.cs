@@ -59,6 +59,9 @@ public class GameManager : MonoBehaviour
         if (TrapManager.i != null)
             TrapManager.i.Init();
 
+        if (UIManager.i != null)
+            UIManager.i.Init();
+
         if (_boss == null)
             _boss = GameObject.FindWithTag("Boss").GetComponent<Boss>();
 
@@ -80,6 +83,9 @@ public class GameManager : MonoBehaviour
 
             // 트랩 매니저 초기화 동작
             TrapManager.i.AllTrapRestore();
+
+            // UI 매니저 초기화
+            UIManager.i.Restore();
 
             // 보스 초기화 동작
             if (_bBossOn)

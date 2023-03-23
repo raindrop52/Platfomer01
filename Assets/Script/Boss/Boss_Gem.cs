@@ -15,10 +15,8 @@ public class Boss_Gem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Item"))
+        if (collision.CompareTag("Item") || collision.CompareTag("Player"))
         {
-            Destroy(collision);
-
             if (_boss != null)
             {
                 _boss.HP--;
