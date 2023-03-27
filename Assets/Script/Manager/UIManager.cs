@@ -33,7 +33,6 @@ public class UIManager : MonoBehaviour
         string name = type.ToLower();
         Sprite sprite = Resources.Load<Sprite>(name);
         _imgItemSpr.sprite = sprite;
-        Debug.Log(name);
     }
 
     void Update()

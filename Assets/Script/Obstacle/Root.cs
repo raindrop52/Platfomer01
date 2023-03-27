@@ -4,17 +4,26 @@ using UnityEngine;
 
 public class Root : Obstacle
 {
-    [SerializeField] float _fUpDist = 2f;
-    [SerializeField] float _fMaxSpeed = 0.05f;
-    [SerializeField] bool test = false;
+    Animator _anim;
+    BoxCollider2D _col;
+
     Vector2 _pos;
+    // 동작 체크 용
+    [SerializeField] bool test = false;
+
+    private void Awake()
+    {
+        _anim = GetComponentInChildren<Animator>();
+        _col = GetComponent<BoxCollider2D>();
+        _col.enabled = false;
+    }
 
     private void Update()
     {
         if (test)
         {
+            Show(true);
             test = false;
-            _pos = transform.localPosition;
             Grow();
         }
     }
@@ -22,12 +31,27 @@ public class Root : Obstacle
     public override void Init()
     {
         base.Init();
+        
         _pos = transform.localPosition;
     }
 
     public void SetPosX(float x)
     {
         transform.localPosition = new Vector2(x, _pos.y);
+    }
+
+    public void Anim_Trigger_On(int on)
+    {
+        if(_col != null)
+        {
+            if (on == 0)
+            {
+                _col.enabled = false;
+                Show(false);
+            }
+            else if (on == 1)
+                _col.enabled = true;
+        }
     }
 
     public void Grow()
@@ -37,25 +61,9 @@ public class Root : Obstacle
 
     IEnumerator IGrowUp()
     {
-        yield return new WaitForSeconds(0.75f);
-        Vector2 pos = new Vector2(transform.localPosition.x, transform.localPosition.y + _fUpDist);
-        
-        while (true)
-        {
-            float speed = Random.Range(0.01f, _fMaxSpeed);
+        yield return new WaitForSeconds(1.5f);
 
-            if (Vector2.Distance(transform.localPosition, pos) <= 0.02f)
-            {
-                break;
-            }
-
-            transform.Translate(Vector2.up * speed);
-
-            yield return null;
-        }
-
-        yield return new WaitForSeconds(1.0f);
-
-        Show(false);
+        if (_anim != null)
+            _anim.SetTrigger("Grow");
     }
 }
