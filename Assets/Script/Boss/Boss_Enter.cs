@@ -25,6 +25,19 @@ public class Boss_Enter : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // 플레이어가 부딪히면
+        if (collision.gameObject.CompareTag("Player") && !GameManager.i.BossOn)
+        {
+            Player player = collision.transform.GetComponent<Player>();
+            if (player != null)
+            {
+                player.StopVel();
+            }
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         // 플레이어가 빠져나가면

@@ -123,8 +123,10 @@ MonoBehaviour:
   _bPlayerState: 0
   _bJumpState: 0
   _fxDie: {fileID: 228802233722744190, guid: 2a8d051ab7c62a34c8cae29086abcd0f, type: 3}
-  _GodMode: 0
-  _myItem: {fileID: 0}
+  _bGodMode: 0
+  _bStopMode: 0
+  _goMyItem: {fileID: 0}
+  _testPower: 3000
 --- !u!50 &6121971606236926840
 Rigidbody2D:
   serializedVersion: 4

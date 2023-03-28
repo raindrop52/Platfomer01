@@ -8,7 +8,7 @@ public class UpGround : MonoBehaviour
     [SerializeField] bool _bTest = false;
     Tilemap _tile;
     Rigidbody2D _rigid;
-    [SerializeField] float _fSpeed = 3f;
+    [SerializeField] Vector2 _vSpeed;
     [SerializeField] float _fReadySec = 1f;
     [SerializeField] float _fFireSec = 1f;
 
@@ -34,6 +34,8 @@ public class UpGround : MonoBehaviour
 
     IEnumerator IUpGround()
     {
+        yield return new WaitUntil(() => transform.position.y == 0f);
+
         // 발사 전조 이펙트
         ColorChange(new Color(1f, 1f, 1f, 0.5f));
         
@@ -45,13 +47,15 @@ public class UpGround : MonoBehaviour
         _rigid.bodyType = RigidbodyType2D.Dynamic;
 
         // 발사
-        _rigid.AddForce(Vector2.up * _fSpeed);
+        float fSpeed = Random.Range(_vSpeed.x, _vSpeed.y);
+
+        _rigid.AddForce(Vector2.up * fSpeed, ForceMode2D.Impulse);
 
         yield return new WaitForSeconds(_fFireSec);
 
         // 정지 후 낙하
         Stop();
-        _rigid.AddForce(Vector2.down * _fSpeed / 2);
+        _rigid.AddForce(Vector2.down * fSpeed / 2);
 
         while(true)
         {

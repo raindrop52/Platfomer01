@@ -26,7 +26,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject _fxDie;
     ParticleSystem _psDie;
 
-    [SerializeField] bool _GodMode = false;
+    public bool _bGodMode = false;
+    public bool _bStopMode = false;
 
     public GameObject _goMyItem;
     
@@ -50,8 +51,35 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void StopVel()
+    {
+        _rigid2D.velocity = Vector3.zero;
+    }
+
+    [SerializeField] float _testPower = 3000f;
+    public void GodMove(Vector2 vec)
+    {
+        _bGodMode = true;
+        _bStopMode = true;
+
+        StopVel();
+        
+        _rigid2D.AddForce(vec * _testPower);
+    }
+
+    public void GodStop()
+    {
+        _bGodMode = false;
+        _bStopMode = false;
+
+        StopVel();
+    }
+        
     void Update()
     {
+        if (_bStopMode)
+            return;
+
         // 아이템 사용
         if (Input.GetKeyDown(KeyCode.Z))
         {
@@ -97,6 +125,9 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (_bStopMode)
+            return;
+
         float x = Input.GetAxisRaw("Horizontal");
 
         // 이동
@@ -142,7 +173,7 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        if (_GodMode)
+        if (_bGodMode)
             return;
 
         StartCoroutine(PlayerDie());

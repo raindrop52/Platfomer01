@@ -15,8 +15,8 @@ public class Boss : MonoBehaviour
     Coroutine _runningCo = null;
     // 보스 타격 충돌체 오브젝트
     [SerializeField] GameObject _goHitGem;
-    // 보스 타격 이펙트
-    [SerializeField] ParticleSystem _psHit;
+    // 보스 사망 이펙트
+    [SerializeField] ParticleSystem _psDie;
     // 보스 공격 오브젝트
     [Header("공격 A")]
     Projectil_Fire _projFire;
@@ -38,6 +38,7 @@ public class Boss : MonoBehaviour
         get { return _hp; }
         set { _hp = value; }
     }
+    int _oldHp = 0;
     int _maxHp = 3;
     // 상태 ( -1 = Die / 0 = Awake / 1 = Idle / 2 = Attack )
     int _state = -1;
@@ -51,10 +52,54 @@ public class Boss : MonoBehaviour
 
         CreateAttackTypeB();
 
-        _hp = _maxHp;
+        Init();
+    }
+
+    [SerializeField] bool _bTest = false;
+    void Update()
+    {
+        // 패턴 동작 테스트용 코드
+        if (_bTest)
+        {
+            _bTest = false;
+            StartAction();
+        }
+
+        // 한대 맞은 경우
+        if (_hp < _oldHp)
+        {
+            // Hit 함수 동작
+            Hit();
+        }
+    }
+
+    void Init()
+    {
+        if(gameObject.activeSelf == false)
+            gameObject.SetActive(true);
+
+        _hp = _oldHp = _maxHp;
+
+        // 최종 페이즈 변수 초기화
         _bLast = false;
+        _col2D.isTrigger = false;
+
         if (_goUpBoss != null)
+        {
+            _goUpBoss.transform.position = new Vector3(0f, -1f, 0f);
             _goUpBoss.SetActive(false);
+        }
+
+        if (_rigid2D.bodyType != RigidbodyType2D.Dynamic)
+            _rigid2D.bodyType = RigidbodyType2D.Dynamic;
+
+        EventAnimation_ShowGem(0);
+
+        // 휴면 상태로 전환
+        ChangeState(-1);
+
+        // Show 상태로 전환
+        Show(true);
     }
 
     public void Restore()
@@ -65,19 +110,12 @@ public class Boss : MonoBehaviour
             // 코루틴 동작 정지
             if(_runningCo != null)
                 StopCoroutine(_runningCo);
-            _hp = _maxHp;
-            // 최종국면 초기화
-            _bLast = false;
-            _col2D.isTrigger = false;
-            if (_goUpBoss != null)
-                _goUpBoss.SetActive(false);
-            // 휴면 상태로 전환
-            ChangeState(-1);
-            // Show 상태로 전환
-            Show(true);
+
+            Init();
         }
     }
 
+    // 0 = Hide | 1 = Show
     public void EventAnimation_ShowGem(int nShow)
     {
         if (_goHitGem != null)
@@ -97,24 +135,6 @@ public class Boss : MonoBehaviour
 
         // 보스 행동 시작
         BossAction();
-    }
-
-    [SerializeField] bool _bTest = false;
-    private void Update()
-    {
-        // 패턴 동작 테스트용 코드
-        if(_bTest)
-        {
-            _bTest = false;
-            StartAction();
-        }
-
-        // 한대 맞은 경우
-        if(_hp < _maxHp)
-        {
-            // Hit 함수 동작
-            Hit();
-        }
     }
 
     void BossAction()
@@ -141,20 +161,27 @@ public class Boss : MonoBehaviour
         {
             if(_hp <= 1f)
             {
-                if(_goUpBoss.activeSelf == false)
+                if(_goUpBoss.activeSelf == false && !_bLast)
                 {
                     _goUpBoss.SetActive(true);
-                    
-                    while(_goUpBoss.transform.localPosition.y <= _fUpY)
+
+                    GameManager.i.pPlayer.GodMove(Vector2.left);
+
+                    while (_goUpBoss.transform.localPosition.y <= _fUpY)
                     {
                         _goUpBoss.transform.Translate(Vector2.up * Time.deltaTime * 10f);
 
                         yield return null;
                     }
 
+                    GameManager.i.pPlayer.GodStop();
+
                     _rigid2D.bodyType = RigidbodyType2D.Kinematic;
                     _col2D.isTrigger = true;
                     ChangeState(1);
+
+                    EventAnimation_ShowGem(1);
+                    _bLast = true;
                 }
 
                 yield return new WaitForSeconds(3f);
@@ -231,11 +258,14 @@ public class Boss : MonoBehaviour
                 }
             case 1:
                 {
-                    // C타입 어택
-                    foreach(GameObject go in _goUpTiles)
+                    if(_bLast)
                     {
-                        UpGround up = go.GetComponent<UpGround>();
-                        up.DoEvent();
+                        // C타입 어택
+                        foreach (GameObject go in _goUpTiles)
+                        {
+                            UpGround up = go.GetComponent<UpGround>();
+                            up.DoEvent();
+                        }
                     }
                     
                     break;
@@ -247,29 +277,25 @@ public class Boss : MonoBehaviour
     {
         if (_hp > 0)
         {
-            if (_hp == 1 && !_bLast)
-            {
-                _bLast = true;
-            }
+            // 이전 체력 기록
+            _oldHp = _hp;
 
-            // 충돌 이펙트 발동
-            if (_psHit != null)
-            {
-                // 비활성화 해제
-                if (_psHit.gameObject.activeSelf == false)
-                    _psHit.gameObject.SetActive(true);
+            // 젬 숨김
+            EventAnimation_ShowGem(0);
 
-                // 파티클 시스템 동작
-                _psHit.Play();
-            }
+            // 히트 애니메이션 동작
+            _anim.SetTrigger("Hit");
         }
         // 사망 처리
         else
         {
             // 사망 이펙트 발동
-
+            _psDie.gameObject.SetActive(true);
+            _psDie.Play();
             // 사망 이펙트 종료 후 오브젝트 숨김 처리
             gameObject.SetActive(false);
+
+            GameManager.i.BossOn = false;
         }
     }
 
