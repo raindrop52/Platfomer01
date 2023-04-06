@@ -5,11 +5,14 @@ using UnityEngine;
 public class ItemBox : MonoBehaviour
 {
     Transform _trans;
+
     [SerializeField] Item _item;
     [SerializeField] GameObject _bg;
     [SerializeField] GameObject _box;
 
     [SerializeField] float _speed;
+
+    [SerializeField] Tween_Item _tweenItem;
 
     private void Awake()
     {
@@ -31,17 +34,23 @@ public class ItemBox : MonoBehaviour
                 {
                     // 아이템 획득 동작
                     StartCoroutine(UnBoxing());
-                    // UI에 아이템 표시
-
                     // 아이템 프리팹 생성
                     GameObject goItem = Instantiate(_item.gameObject);
                     goItem.transform.SetParent(player.transform);
                     goItem.transform.localPosition = Vector3.zero;
                     Item item = goItem.GetComponent<Item>();
-                    if (item != null)
-                        item.Equip(player);
+                    // UI Tween 동작
+                    if (_tweenItem != null)
+                    {
+                        // UI에 아이템 표시
+                        if (item != null)
+                            _tweenItem._item = item;
+
+                        _tweenItem.Move();
+                    }
 
                     // 플레이어에 아이템 전달
+                    player.Play_Sound((int)Player_Sound.PICK);
                     player._goMyItem = goItem;
                 }
             }

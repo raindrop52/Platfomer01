@@ -10,6 +10,11 @@ public class Axe : Item
     Rigidbody2D _rigid;
     Vector2 _oldPos;        // 발사 전 위치
 
+    private void Awake()
+    {
+        Show(false);
+    }
+
     // 획득 시 동작
     public override void Equip(Player player)
     {

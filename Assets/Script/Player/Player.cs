@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+enum Player_Sound
+{
+    FOOT_STEP = 0,
+    JUMP,
+    PICK,
+}
+
 public class Player : MonoBehaviour
 {
     Rigidbody2D _rigid2D;
@@ -12,9 +19,9 @@ public class Player : MonoBehaviour
         get { return _sprite.flipX; }
     }
 
-    public float _fSpeed = 0.5f;
-    public float _fMaxSpeed = 5f;
-    public float _fJumpPower = 8f;
+    [SerializeField] float _fSpeed = 0.5f;
+    [SerializeField] float _fMaxSpeed = 5f;
+    [SerializeField] float _fJumpPower = 8f;
 
     [SerializeField] bool _bPlayerState = false;      // 플레이어의 이동 상태 확인
     [SerializeField] bool _bJumpState = false;       // 점프 상태 확인
@@ -28,17 +35,25 @@ public class Player : MonoBehaviour
 
     public bool _bGodMode = false;
     public bool _bStopMode = false;
+    [SerializeField] float _godMovePower = 3000f;
 
     public GameObject _goMyItem;
-    
+
+    [Header("사운드")]
+    AudioSource _sound;
+    // 0 - 발소리 | 1 - 점프 | 2 - 아이템 획득
+    [SerializeField] List<AudioClip> _clips;
+
     private void Awake()
     {
         _rigid2D = GetComponent<Rigidbody2D>();
         _rigid2D.velocity = Vector2.zero;
         _anim = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
+        _sound = GetComponent<AudioSource>();
     }
 
+    #region public
     public void Init()
     {
         // 죽는 이펙트 생성
@@ -56,7 +71,6 @@ public class Player : MonoBehaviour
         _rigid2D.velocity = Vector3.zero;
     }
 
-    [SerializeField] float _testPower = 3000f;
     public void GodMove(Vector2 vec)
     {
         _bGodMode = true;
@@ -64,7 +78,7 @@ public class Player : MonoBehaviour
 
         StopVel();
         
-        _rigid2D.AddForce(vec * _testPower);
+        _rigid2D.AddForce(vec * _godMovePower);
     }
 
     public void GodStop()
@@ -74,7 +88,33 @@ public class Player : MonoBehaviour
 
         StopVel();
     }
-        
+
+    public void Resurrection(Vector2 resPos)
+    {
+        // 부활 시 내려올 때 점프 방지
+        _anim.SetBool("IsJump", true);
+        _bJumpState = true;
+        _rigid2D.bodyType = RigidbodyType2D.Dynamic;
+        transform.position = resPos;
+
+        if (transform.parent != null)
+            transform.SetParent(null);
+
+        if (_goMyItem != null)
+            Destroy(_goMyItem);
+    }
+
+    public void Play_Sound(int index)
+    {
+        if (_sound != null)
+        {
+            _sound.clip = _clips[index];
+            _sound.Play();
+        }
+    }
+    #endregion
+
+    #region private
     void Update()
     {
         if (_bStopMode)
@@ -94,6 +134,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X) && _bJumpState == false
             && _anim.GetBool("IsJump") == false)
         {
+            Play_Sound((int)Player_Sound.JUMP);
             _bJumpState = true;
             _rigid2D.AddForce(Vector2.up * _fJumpPower, ForceMode2D.Impulse);
             _anim.SetBool("IsJump", true);
@@ -222,19 +263,5 @@ public class Player : MonoBehaviour
             }
         }
     }
-
-    public void Resurrection(Vector2 resPos)
-    {
-        // 부활 시 내려올 때 점프 방지
-        _anim.SetBool("IsJump", true);
-        _bJumpState = true;
-        _rigid2D.bodyType = RigidbodyType2D.Dynamic;
-        transform.position = resPos;
-
-        if (transform.parent != null)
-            transform.SetParent(null);
-
-        if (_goMyItem != null)
-            Destroy(_goMyItem);
-    }
+    #endregion
 }

@@ -9,6 +9,8 @@ public class UpGround : MonoBehaviour
     Tilemap _tile;
     Rigidbody2D _rigid;
     [SerializeField] Vector2 _vSpeed;
+    [SerializeField] float _fSpeed;
+    [SerializeField] float _fMaxHeight;
     [SerializeField] float _fReadySec = 1f;
     [SerializeField] float _fFireSec = 1f;
 
@@ -44,6 +46,18 @@ public class UpGround : MonoBehaviour
         Debug.Log("발사 준비 완료");
         ColorChange(new Color(1f, 1f, 1f, 1f));
 
+        while (transform.position.y < _fMaxHeight)
+        {
+            Shoot(_fSpeed);
+
+            yield return null;            
+        }
+
+        yield return new WaitForSeconds(_fFireSec);
+        
+        transform.position = Vector2.zero;
+
+        /*
         _rigid.bodyType = RigidbodyType2D.Dynamic;
 
         // 발사
@@ -68,7 +82,7 @@ public class UpGround : MonoBehaviour
             }
 
             yield return null;
-        }
+        }*/
     }
 
     void ColorChange(Color color)
@@ -83,5 +97,10 @@ public class UpGround : MonoBehaviour
     {
         if(_rigid != null)
             _rigid.velocity = Vector3.zero;
+    }
+    
+    void Shoot(float fSpeed)
+    {
+        transform.Translate(Vector2.up * fSpeed * Time.deltaTime);
     }
 }
